@@ -1,7 +1,7 @@
 ---
 id: pique
 title: Pique
-image: "assets/img/pique.jpg"
+image: "/assets/img/pique.jpg"
 ---
 
 Pique is a WordPress.com theme I designed and developed, now in use on over 600,000 user sites.
