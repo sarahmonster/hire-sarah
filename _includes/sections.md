@@ -11,13 +11,20 @@
 
 				<h2 class="subtitle">Why {{ include.company }}?</h2>
 
-				{{ include.intro | markdownify }}
+				{{ include.whyyou | markdownify }}
 
 				<h2 class="subtitle">Why me?</h2>
+
+				{{ include.whyme | markdownify }}
+
+				<p>Let’s make great things together!</p>
+			{% else %}
+				{{ section.content | markdownify }}
 			{% endif %}
+		{% else %}
+			{{ section.content | markdownify }}
 		{% endif %}
 		
-		{{ section.content | markdownify }}
 	</div>
 </section>
 {% endfor %}
