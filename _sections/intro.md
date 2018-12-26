@@ -1,6 +1,7 @@
 ---
 id: intro
 class: intro
+order: 2
 title: Hello there! I'm Sarah.
 ---
 

@@ -1,5 +1,6 @@
 ---
 id: contact
+order: 6
 title: Let’s talk more.
 heading: This First Heading
 subheading: Will Catch Your Eye

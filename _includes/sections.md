@@ -1,4 +1,5 @@
-{% for section in site.sections %}
+{% assign sections = site.sections | sort: 'order' %}
+{% for section in sections %}
 <section class="panel {{ section.class }}">
 	<div class="panel-contents">
 		{% if section.title != "empty" %}

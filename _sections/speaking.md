@@ -1,5 +1,6 @@
 ---
 id: speaking
+order: 5
 title: Speaking engagements
 ---
 
