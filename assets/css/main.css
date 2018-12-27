@@ -261,6 +261,15 @@ p, img {
     }
 }
 
+.tag {
+    background: var(--color-primary-dark);
+    color: var(--color-neutral-100);
+    padding: 0.25em 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 0.8em;
+    white-space: nowrap;
+}
 
 
 
