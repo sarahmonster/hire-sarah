@@ -16,7 +16,7 @@ window.addEventListener('scroll', (event) => {
   const fromTop = window.scrollY;
 
   // We also want to measure our navbar height, and subtract that from our calculations.
-  const navbarHeight = navContainer[0].offsetHeight;
+  const navbarHeight = navContainer[0].offsetHeight + 1;
 
   navLinks.forEach((link) => {
     const section = document.querySelectorAll(link.hash)[0];
