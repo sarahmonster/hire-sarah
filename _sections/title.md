@@ -1,9 +1,7 @@
 ---
-id: intro
-title: empty
+title: 
+heading: empty
 order: 1
-heading: This First Heading
-
 ---
 
  <div class="header">

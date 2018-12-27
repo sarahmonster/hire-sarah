@@ -1,7 +1,7 @@
 ---
-id: portfolio
 order: 3
-title: Selected work
+title: Portfolio
+heading: Selected work
 ---
 
 {% include portfolio.md %}

@@ -1,7 +1,7 @@
 ---
-id: speaking
 order: 5
-title: Speaking engagements
+title: Speaking
+heading: Speaking engagements
 ---
 
 <div class="dates">🇳🇬 Abuja 2017, 🇷🇼 Kigali 2018</div>

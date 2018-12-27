@@ -38,6 +38,7 @@ html {
     font-size: 1.125em;
     line-height: 1.6;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    scroll-behavior: smooth;
 }
 
 /*
@@ -118,6 +119,43 @@ textarea {
 }
 
 /* ==========================================================================
+   Sensible defaults
+   ========================================================================== */
+
+img {
+    max-width: 120%;
+    width: calc(100% + 4em);
+    margin-left: -2em;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+    color: var(--color-neutral-300);
+    margin: 0 0 1em;
+}
+
+a {
+    color: var(--color-secondary);
+    text-decoration: none;
+    padding-bottom: 0.125em;
+    border-bottom: 2px solid;
+}
+
+a:hover {
+    color: var(--color-primary);
+}
+
+strong {
+    font-weight: 600;
+}
+
+p, img {
+    margin-bottom: 2em;
+    margin-top: 0;
+}
+
+/* ==========================================================================
    Panel structure
    ========================================================================== */
 
@@ -162,30 +200,58 @@ textarea {
     padding-bottom: 4em;
 }
 
-img {
-    max-width: 120%;
-    width: calc(100% + 4em);
-    margin-left: -2em;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+
+/* ==========================================================================
+   Sticky navigation
+   ========================================================================== */
+nav {
+  background: var(--color-neutral-600);
+  border-bottom: 1px solid var(--color-neutral-500);
 }
 
-h1, h2, h3 {
-    line-height: 1.2;
-    color: var(--color-neutral-300);
-    margin: 0 0 1em;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-a {
-    color: var(--color-secondary);
-    text-decoration: none;
-    padding-bottom: 0.125em;
-    border-bottom: 2px solid;
+nav {
+    position: sticky;
+    top: 0;
+  }
+
+nav ul li a {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  color: var(--color-neutral-100);
+  text-decoration: none;
+  border-bottom: 0;
+  font-size: 0.9em;
 }
 
-a:hover {
-    color: var(--color-primary);
+.current {
+  background: var(--color-secondary-dark);
 }
 
+.current:hover {
+  color: var(--color-neutral-100);
+  background: var(--color-primary-dark);
+}
+
+@media screen and (max-width: 640px) {
+    nav ul li a {
+        font-size: 0.75em;
+        padding: 0.75rem 0.65rem;
+    }
+}
+
+
+/* ==========================================================================
+   Title panel
+   ========================================================================== */
 .header .panel-title,
 .header .subtitle {
     margin: 0 0 0.2em;
@@ -222,9 +288,8 @@ a:hover {
 }
 
 
-strong {
-    font-weight: 600;
-}
+
+
 
 .dates {
     text-transform: uppercase;
@@ -232,10 +297,6 @@ strong {
     letter-spacing: 0.125em;
 }
 
-p, img {
-    margin-bottom: 2em;
-    margin-top: 0;
-}
 
 .intro-image {
     border-radius: 50%;
@@ -274,6 +335,7 @@ p, img {
     white-space: nowrap;
 }
 
+/* Portfolio items */
 .portfolio-item {
     display: grid;
     grid-gap: 2em;
