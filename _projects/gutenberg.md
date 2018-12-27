@@ -1,7 +1,9 @@
 ---
 id: gutenberg
 title: Gutenberg
+order: 2
 image: "/assets/img/gutenberg.png"
+summary: Gutenberg is the codename for the new WordPress editor, a large-scale open-source undertaking.
 ---
 
 Gutenberg is the codename for the new WordPress editor, a large-scale open-source undertaking. In addition to working on various UI improvements, I coordinated designers to undertake a full audit of all the individual blocks that make up the editor, with an eye toward usability, accessibility, and consistency across the experience.

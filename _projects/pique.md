@@ -1,7 +1,9 @@
 ---
 id: pique
 title: Pique
+order: 3
 image: "/assets/img/pique.jpg"
+summary: A WordPress.com theme designed for small businesses, now in use on over 600,000 user sites.
 ---
 
 Pique is a WordPress.com theme I designed and developed, now in use on over 600,000 user sites.
