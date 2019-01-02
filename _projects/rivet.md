@@ -3,8 +3,9 @@ id: rivet
 title: Rivet
 order: 1
 image: "/assets/img/rivet.png"
-tags: [user research, wireframing, prototyping, visual design, development direction, front-end development, usability testing, product management]
+tags: [user research, competitive analysis, wireframing, prototyping, visual design, development direction, front-end development, usability testing, product management]
 summary: An experimental project designed to vastly simplify and streamline the WordPress site-building process for small business owners by using technology to automate design decisions. 
+demo: https://rivet.vip/
 ---
 
 ## Challenge

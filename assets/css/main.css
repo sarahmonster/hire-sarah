@@ -30,6 +30,8 @@
     --color-secondary-light: #acf9f9;
     --color-secondary: #6cdcef;
     --color-secondary-dark: #349db2;
+
+    --
 }
 
 html {
@@ -139,14 +141,15 @@ h1, h2, h3 {
 }
 
 a {
-    color: var(--color-secondary);
+    color: var(--color-secondary-dark);
     text-decoration: none;
     padding-bottom: 0.125em;
     border-bottom: 2px solid;
+    position: relative;
 }
 
 a:hover {
-    color: var(--color-primary);
+    color: var(--color-primary-dark);
 }
 
 strong {
@@ -176,6 +179,7 @@ p, img {
     }
 }
 
+/* Dark panels */
 .panel:nth-of-type(odd) {
     background: var(--color-neutral-600);
     color: var(--color-neutral-100);
@@ -185,6 +189,15 @@ p, img {
     color: var(--color-primary);
 }
 
+.panel:nth-of-type(odd) a {
+    color: var(--color-secondary);
+}
+
+.panel:nth-of-type(odd) a:hover {
+    color: var(--color-primary);
+}
+
+/* Light panels */
 .panel:nth-of-type(even) {
     background: var(--color-neutral-100);
     color: var(--color-neutral-600);
@@ -210,6 +223,8 @@ p, img {
 nav {
   background: var(--color-neutral-600);
   border-bottom: 1px solid var(--color-neutral-500);
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
@@ -221,18 +236,17 @@ nav ul {
   flex-wrap: wrap;
 }
 
-nav {
-    position: sticky;
-    top: 0;
-  }
-
-nav ul li a {
+nav a {
   display: inline-block;
   padding: 0.5rem 2rem;
   color: var(--color-neutral-100);
   text-decoration: none;
   border-bottom: 0;
   font-size: 0.9em;
+}
+
+nav a:hover {
+    color: var(--color-primary);
 }
 
 .current {
@@ -282,6 +296,11 @@ nav ul li a {
     font-size: 1.6rem;
 }
 
+
+
+/* ==========================================================================
+   CV panel
+   ========================================================================== */
 .panel.cv .subtitle {
     color: var(--color-neutral-400);
 }
@@ -290,10 +309,6 @@ nav ul li a {
     color: var(--color-primary-dark);
 }
 
-
-
-
-
 .dates {
     text-transform: uppercase;
     font-size: 0.9rem;
@@ -301,6 +316,9 @@ nav ul li a {
 }
 
 
+/* ==========================================================================
+   Title panel
+   ========================================================================== */
 .intro-image {
     border-radius: 50%;
     width: 200px;
@@ -328,17 +346,9 @@ nav ul li a {
     }
 }
 
-.tag {
-    background: var(--color-primary-dark);
-    color: var(--color-neutral-100);
-    padding: 0.25em 0.5em;
-    text-transform: uppercase;
-    letter-spacing: 0.125em;
-    font-size: 0.8em;
-    white-space: nowrap;
-}
-
-/* Portfolio items */
+/* ==========================================================================
+   Portfolio panel
+   ========================================================================== */
 .portfolio-item {
     display: grid;
     grid-gap: 2em;
@@ -366,6 +376,35 @@ nav ul li a {
         order: -1;
     }
 }
+
+
+/* ==========================================================================
+   Portfolio pages
+   ========================================================================== */
+.portfolio-heading {
+    text-align: center;
+}
+
+.portfolio-tags {
+    margin-bottom: 2em;
+}
+
+.tag {
+    display: inline-block;
+    background: var(--color-primary-dark);
+    color: var(--color-neutral-100);
+    padding: 0.25em 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 0.8em;
+    white-space: nowrap;
+    margin: 4px 2px;
+}
+
+.portfolio-links a:nth-of-type(2) {
+    margin-left: 0.5em;
+}
+
 
 
 /* ==========================================================================

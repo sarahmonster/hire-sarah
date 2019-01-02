@@ -31,11 +31,26 @@
 
           <img src="{{ page.image }}">
 
-          <p >{{ page.summary }}</p>
+          <p>{{ page.summary }}</p>
 
-          {% for tag in page.tags %}
-            <span class="tag">{{ tag }}</span>
-          {% endfor %}
+
+          <div class="portfolio-tags">
+            {% for tag in page.tags %}
+              <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+
+          <div class="portfolio-links">
+            {% if page.repo %}
+              <a href="{{ page.repo }}">Code</a>
+            {% endif %}
+
+            {% if page.demo %}
+              <a href="{{ page.demo }}">Demo</a>
+            {% endif %}
+          </div>
+
+          
 
         </div>
       </section>
