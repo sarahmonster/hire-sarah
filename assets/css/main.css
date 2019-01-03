@@ -29,9 +29,7 @@
 
     --color-secondary-light: #acf9f9;
     --color-secondary: #6cdcef;
-    --color-secondary-dark: #349db2;
-
-    --
+    --color-secondary-dark: #008296;
 }
 
 html {
@@ -130,7 +128,7 @@ img {
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-img.noshadow {
+.noshadow {
     box-shadow: none;
 }
 
@@ -159,6 +157,40 @@ strong {
 p, img {
     margin-bottom: 2em;
     margin-top: 0;
+}
+
+blockquote {
+    margin: 0 0 2em;
+    color: var(--color-neutral-400);
+    font-size: 1.2em;
+    position: relative;
+    font-style: italic;
+}
+
+blockquote:before {
+    content: "“";
+    display: block;
+    color: var(--color-neutral-200);
+    font-size: 4em;
+    position: absolute;
+    top: -0.125em;
+    left: -0.5em;
+    line-height: 1;
+    font-family: Georgia, serif;
+    font-style: normal;
+    z-index: 1;
+}
+
+blockquote p {
+    position: relative;
+    z-index: 2;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    font-style: normal;
+    font-size: 0.8em;
 }
 
 /* ==========================================================================
@@ -226,6 +258,7 @@ nav {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+  z-index: 100;
 }
 
 nav ul {

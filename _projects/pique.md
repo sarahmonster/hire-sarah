@@ -41,17 +41,16 @@ Each panel was given an adjustable overlay made up of a solid colour, with the o
 
 ![Pique as viewed in the Customizer](/assets/img/pique/customizer.jpg)
 
-Finally, in order to make the user experience more clear, I built out a diagram and wrote [an extensive help page](https://wordpress.com/theme/pique){:rel="nofollow"}.
+Finally, in order to make the user experience more clear, I built out a diagram and wrote [an extensive help page](https://wordpress.com/theme/pique){:rel="nofollow noreferrer"}.
 
 ![Diagram of panel structure](/assets/img/pique/pique-diagram2.png){:.noshadow}
 
 ## Results
 
-Pique was well-received on both [WordPress.com](https://en.blog.wordpress.com/2015/12/17/pique/){:rel="nofollow"} and [WordPress.org](https://wordpress.org/support/theme/pique/reviews/){:rel="nofollow"} on its release. It even picked up some positive press:
+Pique was well-received on both [WordPress.com](https://en.blog.wordpress.com/2015/12/17/pique/){:rel="nofollow noreferrer"} and [WordPress.org](https://wordpress.org/support/theme/pique/reviews/){:rel="nofollow noreferrer"} on its release. It even picked up some positive press:
 
-> Most of the themes created by the professional design team at WordPress.com are geared towards bloggers...that’s why the latest Pique theme is an unusual and exciting release."
-
--[WP Tavern](https://wptavern.com/pique-a-free-small-business-theme-for-wordpress){:rel="nofollow"}
+> Most of the themes created by the professional design team at WordPress.com are geared towards bloggers...that’s why the latest Pique theme is an unusual and exciting release.
+> <cite>[WP Tavern](https://wptavern.com/pique-a-free-small-business-theme-for-wordpress){:rel="nofollow noreferrer"}</cite>
 
 Pique is now in use on over 600,000 WordPress.com user sites, as well as over 4000 self-hosted WordPress sites.
 
