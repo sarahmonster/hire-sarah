@@ -444,6 +444,15 @@ figcaption {
         grid-column: span 2;
         grid-row: span 2;
     }
+
+    .double-width {
+        grid-column: span 2;
+    }
+
+    .double-height {
+        grid-row: 1 / span 2;
+        grid-column-start: 3;
+    }
 }
 
 
