@@ -360,7 +360,7 @@ nav a:hover {
     margin: 0;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 780px) {
     .intro-image {
         display: none;
     }
@@ -468,7 +468,7 @@ figcaption {
 
 @media screen and (min-width: 800px) {
     .portfolio-sequence {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         width: calc(100% + 8em);
         margin: 0 -4em 2em;
     }
@@ -485,6 +485,23 @@ figcaption {
     .double-height {
         grid-row: 1 / span 2;
         grid-column-start: 3;
+    }
+
+    .portfolio-sequence.four-column {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .portfolio-sequence.four-column .double-size {
+        grid-column: span 4;
+
+    }
+
+    .full-width {
+        grid-column: span 3;
+    }
+
+    .full-height {
+        grid-row: span 4;
     }
 }
 
