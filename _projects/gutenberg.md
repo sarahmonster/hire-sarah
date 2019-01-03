@@ -3,7 +3,7 @@ id: gutenberg
 title: Gutenberg
 order: 2
 image: "/assets/img/gutenberg/editor.png"
-tags: [user research, prototyping, wireframing, UX design, design systems, documentation]
+tags: [user research, prototyping, wireframing, UX design, design systems, documentation, data visualisation]
 summary: A large-scale open-source undertaking, Gutenberg is the codename for both a new editor, and a fundamental change to the way that WordPress works.
 repo: https://github.com/wordpress/gutenberg
 ---
