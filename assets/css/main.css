@@ -396,13 +396,53 @@ nav a:hover {
     padding: 0.25em 0.5em;
     text-transform: uppercase;
     letter-spacing: 0.125em;
-    font-size: 0.8em;
+    font-size: 0.7em;
     white-space: nowrap;
     margin: 4px 2px;
 }
 
 .portfolio-links a:nth-of-type(2) {
     margin-left: 0.5em;
+}
+
+.portfolio-sequence {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    margin: 0 0 2em;
+}
+
+.portfolio-sequence img {
+    width: 100%;
+    margin: 0 0 0.25em;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 0.8em;
+    line-height: 1.4;
+}
+
+@media screen and (min-width: 400px) {
+    .portfolio-sequence {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .portfolio-sequence {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: calc(100% + 8em);
+        margin: 0 -4em 2em;
+    }
+
+    .double-size {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
 }
 
 
