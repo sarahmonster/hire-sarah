@@ -10,7 +10,7 @@
 			
 			{% if sectionid == "intro" %}
 				{% if include.permalink %}
-					<p>👋 hello {{ include.company }}! I’d like to be your new {{ include.jobtitle }}.</p>
+					<p>Hello {{ include.company }}! 👋 I’d like to be your new {{ include.jobtitle }}. 🎨</p>
 
 					<h2 class="subtitle">Why {{ include.company }}?</h2>
 
@@ -20,7 +20,7 @@
 
 					{{ include.whyme | markdownify }}
 
-					<p>Let’s make great things together!</p>
+					<p><strong>Let’s make great things together!</strong></p>
 				{% else %}
 					{{ section.content | markdownify }}
 				{% endif %}
