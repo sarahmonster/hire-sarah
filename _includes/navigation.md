@@ -4,7 +4,11 @@
 		{% for section in sections %}
 			{% if section.heading != "empty" %}
 				{% assign sectionid = section.id | remove: "/sections/" %}
-				<li><a href="/#{{ sectionid }}">{{ section.title }}</a></li>
+				{% if layout.name == "default" %}
+					<li><a href="#{{ sectionid }}">{{ section.title }}</a></li>
+				{% else %}
+					<li><a href="/#{{ sectionid }}">{{ section.title }}</a></li>
+				{% endif %}
 			{% endif %}
 		{% endfor %}
 	</ul>

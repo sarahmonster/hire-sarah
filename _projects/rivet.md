@@ -42,6 +42,8 @@ I also conducted competitive analysis to benchmark competitors and upstarts in t
 
 Once we had a better understanding of small businesses needs relating to websites and the existing landscape, I kicked off the project by working backward from the end result: start by working out what the minimum valuable website would be for a small-business to say “yes! that is what I want.”
 
+>What is an MVP for this? It can be a basic site, more like a splash page, that answers the main questions for a business: Who we are, what we do, how to find us. The main goal is to get to something that a business owner would want to publish right away (instead of a starting point of a site that they still have to spend a bunch of time filling in and customizing).
+
 <div class="portfolio-sequence four-column">
 	<img src="/assets/img/rivet/widescreen-mock.png" class="double-size" />
 	<img src="/assets/img/rivet/mock-a.png" />
