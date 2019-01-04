@@ -336,11 +336,12 @@ nav a:hover {
 /* ==========================================================================
    CV panel
    ========================================================================== */
-.panel.cv .subtitle {
+#cv .subtitle {
     color: var(--color-neutral-400);
 }
 
-.cv .subtitle strong {
+#cv .subtitle strong {
+    background: transparent;
     color: var(--color-primary-dark);
 }
 
