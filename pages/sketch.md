@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /sketch/
+permalink: /sketch
 jobtitle: Web Designer
 company: Sketch
 title: Hello Sketch! Let's work together.
