@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /first-principle/
+permalink: /first-principle
 jobtitle: Product Designer
 company: First Principle
 title: Hello First Principle! Let's work together.

@@ -5,8 +5,8 @@ jobtitle: Web Designer
 company: Sketch
 title: Hello Sketch! Let's work together.
 
-whyyou: 
- I bet you hear this a whole lot from designers, but **I love Sketch**, both as a product and as a brand, and I'd love to be involved with making it even better. I thrive in a work environment where I can collaborate closely with and learn from others whilst being self-driven. I care a great deal about the web and about improving users' experiences, and I love an environment that presents a varied selection of challenges. 
+whyyou: |
+ I bet you hear this a whole lot from designers, but **I love Sketch**, both as a product and as a brand, and I'd love to be involved with making it even better. I thrive in a work environment where I can collaborate closely with and learn from others whilst being self-driven. I care a great deal about the web and about improving users' experiences, and I love being able to explore a varied selection of challenges. 
 
  I think we'd make a great fit.
 
