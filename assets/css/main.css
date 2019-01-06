@@ -212,10 +212,32 @@ blockquote cite {
     }
 }
 
+.panel-title {
+    color: var(--color-primary);
+    background: var(--color-neutral-600);
+    display: inline-block;
+    font-weight: 600;
+    padding: 0.25em;
+    transform: rotate(-2deg);
+    font-size: 2rem;
+    line-height: 0.8;
+    margin: 1em -0.35em 1.5em 0;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
 /* Dark panels */
 .panel:nth-of-type(odd) {
     background: var(--color-neutral-600);
     color: var(--color-neutral-100);
+}
+
+.panel:nth-of-type(odd) .panel-title {
+    color: var(--color-neutral-600);
+    background: var(--color-primary);
 }
 
 .panel:nth-of-type(odd) .subtitle {
@@ -317,18 +339,6 @@ nav a:hover {
     max-width: 120%;
     margin-left: -10%;
     margin-bottom: 2em;
-}
-
-.panel-title {
-    color: var(--color-neutral-300);
-    font-weight: 200;
-    font-size: 3rem;
-    line-height: 0.8;
-}
-
-.subtitle {
-    font-weight: 500;
-    font-size: 1.6rem;
 }
 
 
