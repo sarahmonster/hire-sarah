@@ -194,6 +194,58 @@ blockquote cite {
     font-size: 0.8em;
 }
 
+
+/* ==========================================================================
+   Sticky navigation
+   ========================================================================== */
+nav {
+  background: var(--color-neutral-500);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  color: var(--color-neutral-100);
+  text-decoration: none;
+  border-bottom: 0;
+  font-size: 0.9em;
+}
+
+nav a:hover {
+    color: var(--color-neutral-100);
+    background: var(--color-primary-dark);
+}
+
+.current {
+  background: var(--color-neutral-400);
+}
+
+.current:hover {
+  color: var(--color-neutral-100);
+  background: var(--color-primary-dark);
+}
+
+@media screen and (max-width: 640px) {
+    nav ul li a {
+        font-size: 0.75em;
+        padding: 0.75rem 0.65rem;
+    }
+}
+
+
 /* ==========================================================================
    Panel structure
    ========================================================================== */
@@ -271,71 +323,45 @@ blockquote cite {
     padding-bottom: 4em;
 }
 
-
-/* ==========================================================================
-   Sticky navigation
-   ========================================================================== */
-nav {
-  background: var(--color-neutral-500);
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  z-index: 100;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0.5rem 2rem;
-  color: var(--color-neutral-100);
-  text-decoration: none;
-  border-bottom: 0;
-  font-size: 0.9em;
-}
-
-nav a:hover {
-    color: var(--color-neutral-100);
-    background: var(--color-primary-dark);
-}
-
-.current {
-  background: var(--color-neutral-400);
-}
-
-.current:hover {
-  color: var(--color-neutral-100);
-  background: var(--color-primary-dark);
-}
-
-@media screen and (max-width: 640px) {
-    nav ul li a {
-        font-size: 0.75em;
-        padding: 0.75rem 0.65rem;
-    }
-}
-
-
 /* ==========================================================================
    Title panel
    ========================================================================== */
 .header {
     display: grid;
-    grid-template-columns: 200px auto;
     grid-gap: 1em;
-    align-items: center;
-    max-width: 120%;
-    margin-left: -10%;
-    margin-bottom: 2em;
-    overflow-x: hidden;
+    justify-items: center;
+    text-align: center;
 }
+
+.sarahface {
+    -webkit-filter: grayscale(0.5);
+    filter: grayscale(0.5);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+
+.sarahface:hover {
+    animation: 300ms 2 alternate pow;
+}
+
+/* Note: make this more fun. Comic book style, pow! and starburst/lines? */
+@keyframes pow {
+    from {
+        filter: grayscale(0.5);
+        transform: scale(1);
+    }
+    70% {
+        filter: grayscale(0);
+        transform: scale(1.125);
+    }
+    100% {
+        filter: grayscale(0);
+        transform: scale(1);
+    }
+}
+
 
 .page-title {
     font-size: 4em;
@@ -356,54 +382,19 @@ nav a:hover {
     .page-title {
         font-size: 6em;
     }
-}
-
-/* ==========================================================================
-   CV panel
-   ========================================================================== */
-#cv .subtitle {
-    color: var(--color-neutral-400);
-}
-
-#cv .subtitle strong {
-    background: transparent;
-    color: var(--color-primary-dark);
-}
-
-.dates {
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    letter-spacing: 0.125em;
-}
-
-
-/* ==========================================================================
-   Title panel
-   ========================================================================== */
-.intro-image {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin: 0;
-}
-
-@media screen and (max-width: 780px) {
-    .intro-image {
-        display: none;
-    }
 
     .header {
-        margin-left: 0;
-        display: block;
+        grid-template-columns: 200px auto;
+        align-items: center;
+        max-width: 120%;
+        margin-left: -10%;
+        margin-bottom: 2em;
+        justify-items: start;
+        text-align: left;
     }
 
-    .panel {
-        padding: 4em 1em;
-    }
-
-    .panel img {
-        margin-left: 0;
-        max-width: 100%;
+    .sarahface {
+        margin-bottom: 0;
     }
 }
 
@@ -436,6 +427,24 @@ nav a:hover {
     .portfolio-item:nth-of-type(even) .project-details {
         order: -1;
     }
+}
+
+/* ==========================================================================
+   CV panel
+   ========================================================================== */
+#cv .subtitle {
+    color: var(--color-neutral-400);
+}
+
+#cv .subtitle strong {
+    background: transparent;
+    color: var(--color-primary-dark);
+}
+
+.dates {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.125em;
 }
 
 

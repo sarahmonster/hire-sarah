@@ -5,7 +5,7 @@ order: 1
 ---
 
  <div class="header">
-	<img src="/assets/img/s.jpg" class="intro-image" alt="Me.">
+	<img src="/assets/img/s.jpg" class="sarahface" alt="Me.">
 
 	<div class="title">
 	  <h1 class="page-title"><strong>sarah</strong> semark</h1>
