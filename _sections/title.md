@@ -7,9 +7,13 @@ order: 1
  <div class="header">
 	<img src="/assets/img/s.jpg" class="sarahface" alt="Me.">
 
-	<div class="title">
-	  <h1 class="page-title"><strong>sarah</strong> semark</h1>
-	  <p class="page-subtitle">designer, critical constructor, explorer</p>
-	</div>
+	<h1 class="page-title"><strong>sarah</strong> semark</h1>
+	<p class="page-subtitle">
+		<span class="job-name">designer</span>
+		<span class="job-name">explorer</span>
+		<span class="job-name">critical constructor</span>
+	</p>
+
+	<img src="/assets/img/flask.svg" class="flask" alt="Florence flask">
 </div>
 
