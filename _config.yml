@@ -27,7 +27,12 @@ permalink: pretty
 markdown: kramdown
 # theme: minima
 # plugins:
+gems:
+  - jekyll-inline-svg
 
+svg:
+  optimize: true
+  
 collections:
   sections:
   projects:
