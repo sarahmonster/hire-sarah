@@ -14,6 +14,6 @@ order: 1
 		<span class="job-name">critical constructor</span>
 	</p>
 
-	{% svg /assets/img/flask.svg class="flask" %}
+	{% include flask.svg %}
 </div>
 
