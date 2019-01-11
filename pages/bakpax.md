@@ -21,8 +21,6 @@ whyme: |
 ---
 
 
-
-
 You want to work with a team of people who get it. They’ve got a great product strategy and also a great go-to-market strategy. They’ve got deep experience, but they’re more excited than ever about making things. You want to work with people who are humble, but confident in what they’re doing and driven to do it well. You communicate clearly, succinctly, and amiably, and value others who do likewise. You reflect and learn from your successes and failures. You’re not afraid of failure, because sometimes it’s the only way to get better, and you’re not afraid to do what it takes to get better. You want to work with incredible engineers — who don’t need to “put their product hats on” because they’re always thinking about the product. You listen and you watch. You put yourself in the position of others.
 
 You crave a work environment where you can be a whole person. You want time and flexibility to be yourself: to go on a walk, take care of a loved on, go to the doctor, and feel supported by your coworkers. And you want to support them so that they can live good lives too.
