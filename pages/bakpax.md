@@ -12,7 +12,7 @@ whyyou: |
 
 whyme: |
 
- I have over ten years of experience, during which time I've worn many different hats, spanning from visual and web design, to user experience, to product management. My experience working remotely means I'm a great communicator, and my experience leading projects means I'm self motivated and have a strong sense of **agency and ownership** over my work. I've launched a variety of different consumer-facing products and features, and I especially relish planning, designing, managing, and building a new product from scratch.
+ I have **over ten years of experience**, during which time I've worn many different hats, spanning from visual and web design, to user experience, to product management. My experience working remotely means I'm a great communicator, and my experience leading projects means I'm self motivated and have a strong sense of **agency and ownership** over my work. I've launched a variety of different consumer-facing products and features, and I especially relish planning, designing, managing, and building a new product from scratch.
 
  I’m primarily a **visual and product designer, but I have a strong technical background** and a wide-ranging general knowledge that allows me to approach my work in a holistic way. I'm experienced in both quantitative and qualitative research methods and I'm comfortable planning and leading research studies.
 
