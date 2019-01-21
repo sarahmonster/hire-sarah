@@ -6,9 +6,11 @@ company: DuckDuckGo
 title: Hello DuckDuckGo! Let's make beautiful things together.
 
 whyyou: |
- Technology is a tool that can be leveraged to make the world a better, fairer, more equitable place. But as technology pays more and more attention to what we're doing, that data serves to benefit corporations, not people. I believe that individuals need to be able to manage their privacy online in order to be the beneficiaries of technology, and that **privacy is a right that everyone, regardless of technical ability, should be able to access**.
+ I believe that **privacy is a right that everyone, regardless of technical ability, should be able to access**. Technology is a tool that can be leveraged to make the world a better, fairer, more equitable place. But as technology tracks us more and commodifies our data, that tool serves to benefit corporations, not people.
 
- **Transparency** is something I value highly, and I love working with people who are passionate about their work and their purpose. I'm a big fan of constructive criticism and would love to work with a team who'll challenge me to do my best work. Oh, and I love that you make yearly donations to organisations you think are worthwhile, and that you included Girl Develop It and Freedom of the Press Foundation amongst the recipients.
+ **Transparency** is something I value highly, and I love working with people who are passionate about their work and their purpose. I’m a big fan of constructive criticism and would love to work with a team who’ll challenge me to do my best work.
+
+ Oh, and I love that you make **yearly donations** to worthwhile organisations—and that you included Girl Develop It and Freedom of the Press Foundation amongst the recipients.
 
 whyme: |
  I have **over ten years of experience**, during which time I've worn many different hats, spanning from research and product management, to visual design and branding, to prototyping and interaction design. My experience working remotely, both with clients and in an open-source context, means I have great written communication skills and can clearly articulate design decisions. My experience leading projects allows me to approach work in a strategic way, defining the vision, roadmap, and success metrics of a project. 
