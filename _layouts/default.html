@@ -36,6 +36,9 @@ name: default
     <main class="container">
       {% include sections.md jobtitle=page.jobtitle whyyou=page.whyyou whyme=page.whyme company=page.company permalink=page.permalink %}
     </main>
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
   </body>
 
   <script type="text/javascript" src="/assets/js/navigation.js"></script>
