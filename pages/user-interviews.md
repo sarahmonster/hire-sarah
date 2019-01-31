@@ -7,23 +7,20 @@ title: Hello User Interviews! Let's work together.
 
 whyyou: |
 
- I care deeply about **solving problems**, and I firmly believe that product teams need to talk to their users in order to truly understand those problems. It's why I've advocated for research and usability testing across all the products I've been involved in, and why I've spent the last few years **leading others in research efforts**. Recruiting users to talk to can often be a blocker to conducting research, and I'd love to help make that part of the process simpler. 
+ I care deeply about **solving problems**, and I firmly believe that product teams need to talk to their users to truly understand those problems. It’s why I’ve advocated for research and usability testing across all the products I’ve worked on, and why I’ve spent the last few years **leading others in research efforts**. Recruiting users to talk to can often be a blocker to conducting research, and I’d love to help make that part of the process simpler.
 
- I'm really excited by the prospect of working with a smaller team, where my work will have more impact and visbility. **I'm happiest when I have an opportunity to work on a variety of different challenges**, from higher level strategic work to the precise line-spacing for maximum legibility.
+ I’m excited by the prospect of working with a smaller team, where my work will have more impact and visibility. **I’m happiest when I have an opportunity to work on a variety of different challenges**, from higher level strategic work to the perfect line-spacing for maximum legibility.
 
- Also, and this is just an aside, but you write a really delightful job description that made me say "Yes!" ❤️ I think we'd make a great fit.
-
- **Let's work together.**
+ Also, and this is just an aside, but you write a delightful job description that made me say “Yes!” ❤️ I think we’d make a great fit.
 
 whyme: |
+ I have **over ten years of experience**, during which time I’ve worn many different hats, spanning from research and product management, to visual design and branding, to prototyping and interaction design. My experience working remotely means I have excellent written communication skills, and my experience leading projects means I’m self-driven and good at defining the goals and measurements for the success of a project.
 
- I have **over ten years of experience**, during which time I've worn many different hats, spanning from research and product management, to visual design and branding, to prototyping and interaction design. My experience working remotely means I have great written communication skills, and my experience leading projects means I'm self-driven and good at defining the goals and measurements for success of a project. 
+ I’m primarily a **visual and product designer, but I have a strong technical background** and a wide-ranging general knowledge that allows me to approach my work holistically. I often end up coding my designs, and am comfortable working with CSS, HTML, JavaScript, and React. My technical skills mean I’m great at communicating and collaborating with developers (although it doesn’t hurt that I live with one as well!) I have extensive experience with **Sketch, Invision, Adobe CS, Figma**, and other design tools, as well as experience working with and developing **design systems**.
 
- I’m primarily a **visual and product designer, but I have a strong technical background** and a wide-ranging general knowledge that allows me to approach my work in a holistic way. I often end up coding my own designs, and am comfortable working with **CSS, HTML, JavaScript , and React**. My technical skills means I'm great at communicating and collaborating with developers (although it doesn't hurt that I live with one as well!) I have extensive experience with Sketch, Invision, Adobe CS, Figma, and other design tools, as well as experience working with and developing design systems. 
+ I’ve led many user research and usability studies and am skilled at planning and leading research studies—as well as pulling out actionable recommendations from all that qualitative data! I embrace a data-informed approach to my work but balance this with intuition in the pursuit of the best solution. Most recently, **I led a team of twenty-five in conducting an exploratory research study** as part of the open-source WordPress project, and I’m currently working to set up a toolkit and framework for future research efforts, as well as teaching contributors.
 
- I've also led a number of user research and usability studies and am comfortable planning and leading research studies—as well as pulling out actionable recommendations from all that qualitative data! I embrace a data-informed approach to my work but balance this with intuition in the pursuit of the best solution. Most recently, **I led a team of twenty-five in conducting an exploratory research study as part of the open-source WordPress project**, and I'm currently working to set up a toolkit and framework for future research efforts, as well as teaching contributors.
-
- My experience working in an open source environment means that I'm adept at **defending my design decisions in a diplomatic way, but I'm never dogmatic** and I'm happy to be proven wrong. I'm not afraid of failure and I like to share my work as soon as possible for best results. 
+ My experience working in an open source environment means that I’m adept at **diplomatically defending my design decisions, but I’m never dogmatic**, and I’m happy to be proven wrong. I’m not afraid of failure, and I like to share my work as soon as possible for best results.
 
 ---
 
