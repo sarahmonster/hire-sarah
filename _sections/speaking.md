@@ -3,6 +3,8 @@ order: 5
 title: Speaking
 heading: Speaking engagements
 ---
+<div class="dates">🇫🇮 Helsinki 2019</div>
+<h3 class="subtitle">WordCamp Nordic</h3>
 
 <div class="dates">🇳🇬 Abuja 2017, 🇷🇼 Kigali 2018</div>
 <h3 class="subtitle">CMS Africa</h3>
@@ -13,7 +15,7 @@ heading: Speaking engagements
 <div class="dates">🇬🇧 York 2016, 2017</div>
 <h3 class="subtitle">DotYork</h3>
 
-<div class="dates">🇬🇧 London 2016, 2017, 2018</div>
+<div class="dates">🇬🇧 London 2016, 2017, 2018, 2019</div>
 <h3 class="subtitle">WordCamp London</h3>
 
 <div class="dates">🇨🇭 Zurich 2017</div>
