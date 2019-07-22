@@ -328,6 +328,26 @@ nav a:hover {
     padding-bottom: 4em;
 }
 
+/* Unordered lists */
+.panel ul,
+.panel ol {
+  padding: 0;
+}
+
+.panel ul li {
+  position: relative;
+  margin: 0 0 0.8rem;
+  list-style: none;
+}
+
+.panel ul li::before {
+  position: absolute;
+  right: 101.5%;
+  content: '\2022';
+  font-size: 0.6em;
+  line-height: 2.8;
+}
+
 /* ==========================================================================
    Title panel
    ========================================================================== */
@@ -692,6 +712,7 @@ figcaption {
 }
 
 .portfolio-panel-image {
+  box-shadow: none;
   max-width: 100%;
   margin: 0;
 }
