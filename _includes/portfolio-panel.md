@@ -2,7 +2,7 @@
 
   <div class="portfolio-panel-text">
   	<span class="dates">{{ include.metadata }}</span>
-  	<h3 class="subtitle">{{ include.heading }}</h3>
+  	<h2 class="subtitle">{{ include.heading }}</h2>
   	{{ include.content | markdownify }}
   </div>
 
