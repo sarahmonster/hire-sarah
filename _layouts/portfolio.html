@@ -29,11 +29,11 @@ name: portfolio
 
     <main class="container">
 
-      <section class="panel portfolio-heading">
+      <section class="panel portfolio-header">
+        <img class="portfolio-header-image" src="{{ page.image }}" alt="">
+
         <div class="panel-contents">
           <h1 class="panel-title">{{ page.title }}</h1>
-
-          <img src="{{ page.image }}">
 
           <p>{{ page.summary }}</p>
 
@@ -44,7 +44,7 @@ name: portfolio
             {% endfor %}
           </div>
 
-          <div class="portfolio-links">
+          <div class="portfolio-links" style="display: none">
             {% if page.repo %}
               <a href="{{ page.repo }}" rel="nofollow noreferrer">Source</a>
             {% endif %}

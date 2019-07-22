@@ -2,7 +2,7 @@
 id: site-building-study
 title: WordPress site building study
 order: 2
-image: "/assets/img/gutenberg/editor.png"
+image: "/assets/img/site-building-study/site-builder-journey-map.png"
 tags: [user research, user journey mapping, affinity mapping, leadership, community management, documentation, data visualisation]
 summary: An exploratory user research study, conducted in the open and with community participation, to uncover users' mental models relating to building websites.
 repo: https://gutenbergresearch.wordpress.com/
@@ -67,7 +67,7 @@ repo: https://gutenbergresearch.wordpress.com/
   heading="Making new friends"
   content="Since our researchers were new to the research process, much of the work was education. I created guides for each individual role (moderator, note-taker, and observer) and tracked when researchers took on which roles.
 
-  All sessions were run remotely with a private Slack channel for researchers to share questions and notes whilst the session was running. I ended up moderating most of the interviews myself, but benefitted from a number of note-takers on the calls. 
+  All sessions were run remotely with a private Slack channel for researchers to share questions and notes whilst the session was running. I ended up moderating most of the interviews myself, but benefitted from a number of note-takers on the calls.
 
   Sessions involved a preliminary interview, followed by an experimental session where we looked over their shoulder as they worked on their own websites, followed by more follow-up conversations.
 
