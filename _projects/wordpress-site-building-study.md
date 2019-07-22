@@ -67,7 +67,11 @@ repo: https://gutenbergresearch.wordpress.com/
   heading="Making new friends"
   content="Since our researchers were new to the research process, much of the work was education. I created guides for each individual role (moderator, note-taker, and observer) and tracked when researchers took on which roles.
 
-  All sessions were run remotely with a private Slack channel for researchers to share questions and notes whilst the session was running. I ended up moderating most of the interviews myself, but benefitted from a number of note-takers on the calls. Sessions involved a preliminary interview, followed by an experimental session where we looked over their shoulder as they worked on their own websites, followed by more follow-up conversations. We loosely followed a script, but since it was exploratory, the sessions often led down divergent paths."
+  All sessions were run remotely with a private Slack channel for researchers to share questions and notes whilst the session was running. I ended up moderating most of the interviews myself, but benefitted from a number of note-takers on the calls. 
+
+  Sessions involved a preliminary interview, followed by an experimental session where we looked over their shoulder as they worked on their own websites, followed by more follow-up conversations.
+
+  We loosely followed an [interview script](https://paper.dropbox.com/doc/Session-script--Ahbzc3lH25_dQPeYKkEzE_G9Ag-OLcRgsqxAvILvMpOhgfiL), but since it was exploratory, the sessions often led down divergent paths."
   image="/assets/img/site-building-study/user-interview.png"
   alt="User interview script and a screen grab from a session recording"
 %}
@@ -77,7 +81,7 @@ repo: https://gutenbergresearch.wordpress.com/
   heading="Trying to make sense of it all"
   content="We had a whole lot of data to sift through. Again, this became a community effort, involving a number of community researchers, some of whom had been involved in the sessions.
 
-  To coordinate the [synthesis of data](https://paper.dropbox.com/doc/Research-synthesis-plan-of-attack--AhRBMJ6bHU2AIWTVQmw8BodgAg-ujM9Z3MS42quQyv0FP33M), I created an Airtable database to code notes & observations in a structured way. I asked for volunteers and then assigned each volunteer to a session, which they were responsible for encoding. Researchers pulled out:
+  To coordinate the [synthesis of data](https://paper.dropbox.com/doc/Research-synthesis-plan-of-attack--AhRBMJ6bHU2AIWTVQmw8BodgAg-ujM9Z3MS42quQyv0FP33M), I created a [database to code notes & observations](https://airtable.com/invite/l?inviteId=invgIkmtbjmxHSynX&inviteToken=00f6685b5b2a2934ad87a61af6638723c95f08d38f8e2e350f0df2b33d784df2) in a structured way. I asked for volunteers and then assigned each volunteer to a session, which they were responsible for encoding. Researchers pulled out:
 
   - Stories
   - Tasks, motivations, emotions, drives
