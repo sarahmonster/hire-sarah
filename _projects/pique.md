@@ -1,7 +1,7 @@
 ---
 id: pique
 title: Pique
-order: 3
+order: 5
 image: "/assets/img/pique.jpg"
 tags: [competitive analysis, wireframing, prototyping, visual design, front-end development, usability testing, documentation]
 summary: A WordPress.com theme designed for small businesses, now in use on over 600,000 user sites.
@@ -29,7 +29,7 @@ I ended up prototyping two potential solutions that worked within WordPress' tec
 
 The visual design followed patterns discovered in the research phase, using darker colours, a subdued colour palette, and modern-looking typography.
 
-As soon as a working prototype was ready, I presented it to my team for feedback. We iterated through feedback cycles, ensuring that nothing was missed and that the scope of features and solutions would account for a wide range of potential use cases for the theme. 
+As soon as a working prototype was ready, I presented it to my team for feedback. We iterated through feedback cycles, ensuring that nothing was missed and that the scope of features and solutions would account for a wide range of potential use cases for the theme.
 
 ![Interior page design](/assets/img/pique/single-post.png)
 
@@ -57,4 +57,3 @@ Pique is now in use on over 600,000 WordPress.com user sites, as well as over 40
 The innovative patterns established in Pique, specifically for building a one-page site with multiple panels, were then refined and reused by a number of different themes that followed, including the default Twenty Seventeen theme for that year.
 
 ![Full theme](/assets/img/pique/pique-featured-screenshot.jpg)
-

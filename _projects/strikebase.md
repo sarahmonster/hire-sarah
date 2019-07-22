@@ -1,7 +1,7 @@
 ---
 id: strikebase
 title: Strikebase
-order: 4
+order: 6
 image: "/assets/img/strikebase.png"
 tags: [user research, user stories, wireframing, prototyping, visual design, development direction, front-end development, product management, logo design, icon design]
 summary: An internal app designed to manage project information and contact details.
