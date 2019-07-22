@@ -334,7 +334,7 @@ nav a:hover {
 #title {
     padding-bottom: 0;
     min-height: 0
-} 
+}
 
 .header {
     display: grid;
@@ -437,7 +437,7 @@ nav a:hover {
     }
 
     .sarahface,
-    .page-title, 
+    .page-title,
     .page-subtitle {
         z-index: 2;
     }
@@ -633,6 +633,68 @@ figcaption {
     }
 }
 
+.portfolio-panel {
+  display: grid;
+  padding: 0;
+  margin: 0;
+  align-items: stretch;
+}
+
+.portfolio-panel-text,
+.portfolio-panel-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.4rem 1.6rem 1.6rem;
+}
+
+@media screen and (min-width: 800px) {
+  .portfolio-panel {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .portfolio-panel-text {
+    padding: 4.8rem;
+  }
+
+  .portfolio-panel-gallery {
+    padding: 2.4rem;
+  }
+
+  .portfolio-panel:nth-of-type(odd) .portfolio-panel-text {
+    order: 2;
+  }
+}
+
+.portfolio-panel-text {
+  background: var(--color-black);
+  color: var(--color-neutral-100);
+}
+
+.portfolio-panel-text .dates {
+  color: var(--color-neutral-200);
+}
+
+.portfolio-panel-text:nth-of-type(odd) .subtitle {
+  color: var(--color-primary);
+}
+
+.portfolio-panel-text a {
+  color: var(--color-secondary);
+}
+
+.portfolio-panel-text a:hover {
+  color: var(--color-primary);
+}
+
+.portfolio-panel-gallery {
+  background: var(--color-white);
+}
+
+.portfolio-panel-image {
+  max-width: 100%;
+  margin: 0;
+}
 
 
 /* ==========================================================================

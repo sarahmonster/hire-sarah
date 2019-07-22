@@ -1,10 +1,11 @@
 ---
 id: rivet
+layout: portfolio-straight
 title: Rivet
 order: 1
 image: "/assets/img/rivet.png"
 tags: [user research, competitive analysis, wireframing, prototyping, visual design, development direction, front-end development, usability testing, product management]
-summary: An experimental project designed to vastly simplify and streamline the WordPress site-building process for small business owners by using technology to automate design decisions. 
+summary: An experimental project designed to vastly simplify and streamline the WordPress site-building process for small business owners by using technology to automate design decisions.
 demo: https://rivet.vip/
 ---
 
@@ -30,11 +31,11 @@ The aim was that the final sites will be unique and personalised to the customer
 
 ## Research
 
-I kicked off the project with some exploratory user research, talking to small business owners to get a better understanding of their needs and pain points as they relate to websites. 
+I kicked off the project with some exploratory user research, talking to small business owners to get a better understanding of their needs and pain points as they relate to websites.
 
 A key finding was that they had no real interest in the process of building a site, but didn't have the budget to hire someone to take it on. We also discovered that content generation was a huge blocker, and many people abandoned sites on WordPress.com full of dummy content.
 
-> Through multiple experiences of my own and hearing about others, I would have to say generating content is the hardest part of building a site. We can help you create a site in seconds and give it a professional look, but without the content, it isn’t very useful. 
+> Through multiple experiences of my own and hearing about others, I would have to say generating content is the hardest part of building a site. We can help you create a site in seconds and give it a professional look, but without the content, it isn’t very useful.
 
 I also conducted competitive analysis to benchmark competitors and upstarts in this space.
 
@@ -113,7 +114,7 @@ Working closely with our editorial team, I copyedited every string in the applic
 
 ## Visual & marketing design
 
-Originally, Rivet's visual design comprised of a language I developed from scratch, including design patterns, visual styles, and iconography. We later decided to shift the visual language to tie more closely to WordPress.com's visual language, and 
+Originally, Rivet's visual design comprised of a language I developed from scratch, including design patterns, visual styles, and iconography. We later decided to shift the visual language to tie more closely to WordPress.com's visual language, and
 
 I collaborated again with our editorial team to develop a name for the product that communicated strength, stability, and a builder approach. We landed on Rivet, and I designed a friendly robot to guide users through the process.
 
@@ -185,7 +186,7 @@ I collaborated again with our editorial team to develop a name for the product t
 
 ## Testing
 
-Testing was conducted iteratively throughout the process, both to test the effectiveness of the final site and to test the interface itself. 
+Testing was conducted iteratively throughout the process, both to test the effectiveness of the final site and to test the interface itself.
 
 Initial testing was done by semi-manually building sites for Business Concierge customers and ensuring the output sites are helpful as a starting point. A second round of testing was done for our social user milestone. Once we were ready for more testing, we opened an internal call for testing.
 
@@ -200,6 +201,6 @@ Further rounds of testing were done at each milestone as the prototype develops.
 
 I led this project from a design, product, and vision perspective as it morphed across two different teams and different projects, and continue to be heavily involved in sharing the approaches that worked (and didn't work) here with different projects across the company.
 
-Rivet was an experimental projected piloted by a team responsible for experimentations, and one of the key troubles we faced was the lack of resources to fully support a product and brand. 
+Rivet was an experimental projected piloted by a team responsible for experimentations, and one of the key troubles we faced was the lack of resources to fully support a product and brand.
 
 Design patterns, approaches, and Rivet's API are now being implemented in the WordPress mobile app, in WordPress.com signup, and in third-party importers.

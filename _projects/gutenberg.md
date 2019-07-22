@@ -1,5 +1,6 @@
 ---
 id: gutenberg
+layout: portfolio-straight
 title: Other Gutenberg work
 order: 4
 image: "/assets/img/gutenberg/editor.png"

@@ -1,5 +1,6 @@
 ---
 id: pique
+layout: portfolio-straight
 title: Pique
 order: 5
 image: "/assets/img/pique.jpg"

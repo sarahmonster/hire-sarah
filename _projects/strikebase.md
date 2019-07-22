@@ -1,5 +1,6 @@
 ---
 id: strikebase
+layout: portfolio-straight
 title: Strikebase
 order: 6
 image: "/assets/img/strikebase.png"
