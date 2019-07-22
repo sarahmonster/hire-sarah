@@ -17,6 +17,7 @@ repo: https://gutenbergresearch.wordpress.com/
 
   I designed and lead an exploratory research study to better understand how users think about building a site."
   image="/assets/img/site-building-study/site-building-intro.png"
+  alt="Gutenberg logo and list of reasons to do user research."
 %}
 
 {% include portfolio-panel.md
@@ -25,7 +26,6 @@ repo: https://gutenbergresearch.wordpress.com/
   content="To kick off the project, I started with a series of stakeholder interviews. I interviewed a variety of people, from project leads to community plugin developers, to inform the scope and goals of the research."
   image="/assets/img/site-building-study/stakeholder-insights.png"
   alt="A board of post-it notes showing insights from stakeholder interviews."
-  caption="Insights gathered from stakeholder interviews"
 %}
 
 {% include portfolio-panel.md
@@ -37,6 +37,7 @@ repo: https://gutenbergresearch.wordpress.com/
 
   This clarified the project goals, timeline, methodology, target participants, and deliverables, as well as ensuring that our understanding of the requirements was correct and everyone was on the same page."
   image="/assets/img/site-building-study/project-plan.png"
+  alt="Research plan document"
 %}
 
 {% include portfolio-panel.md
@@ -46,6 +47,7 @@ repo: https://gutenbergresearch.wordpress.com/
 
   I knew from the outset that I wanted to be able to include members of the general public in the research process, but I wanted to be very certain we were considerate of user privacy. I liased with a lawyer to craft legally-binding agreements for both participants and researchers, ensuring we had a legal framework to cover any potential issues."
   image="/assets/img/site-building-study/researcher-agreement.png"
+  alt="WordPress researcher legal agreement"
 %}
 
 {% include portfolio-panel.md
@@ -57,6 +59,7 @@ repo: https://gutenbergresearch.wordpress.com/
 
   I also made a lot of to-do lists to make sure that all tasks were taken care of before we started the sessions, and I invited the community to [participate as researchers](https://make.wordpress.org/design/2018/12/09/how-to-participate-in-user-research/), along with preparing guides for each different role."
   image="/assets/img/site-building-study/researcher-invite.png"
+  alt="Post on make.wordpress.org inviting community to participate as researchers"
 %}
 
 {% include portfolio-panel.md
@@ -66,6 +69,7 @@ repo: https://gutenbergresearch.wordpress.com/
 
   All sessions were run remotely with a private Slack channel for researchers to share questions and notes whilst the session was running. I ended up moderating most of the interviews myself, but benefitted from a number of note-takers on the calls. Sessions involved a preliminary interview, followed by an experimental session where we looked over their shoulder as they worked on their own websites, followed by more follow-up conversations. We loosely followed a script, but since it was exploratory, the sessions often led down divergent paths."
   image="/assets/img/site-building-study/user-interview.png"
+  alt="User interview script and a screen grab from a session recording"
 %}
 
 {% include portfolio-panel.md
@@ -81,6 +85,7 @@ repo: https://gutenbergresearch.wordpress.com/
 
   Once the data was encoded, I configured different views to start looking for patterns. I discovered behaviour-based segmentation groups in the data and split it that way, then focussed on determining patterns across the segments."
   image="/assets/img/site-building-study/insights-database.png"
+  alt="Screenshots of a database of research insights"
 %}
 
 {% include portfolio-panel.md
@@ -92,6 +97,7 @@ repo: https://gutenbergresearch.wordpress.com/
 
   The [report](https://make.wordpress.org/design/2019/01/31/sitebuilding-research-background/) was published as a five-part series, followed by an [interactive walkthrough and Q&A session](https://make.wordpress.org/design/2019/03/27/site-building-research-walkthrough/)."
   image="/assets/img/site-building-study/report.png"
+  alt="Screenshots from user research report, highlighting user journey map."
 %}
 
 {% include portfolio-panel.md
@@ -111,4 +117,5 @@ repo: https://gutenbergresearch.wordpress.com/
   templates, a platform for easy testing, a pre-recruited database of warm leads from which to recruit, and a database of insights gleaned from
   previous research."
   image="/assets/img/site-building-study/stats.png"
+  alt="Document showing steps in user research project, plus stats (25 researchers, 7 days, 17 participants.)"
 %}

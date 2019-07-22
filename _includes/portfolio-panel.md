@@ -7,7 +7,7 @@
   </div>
 
   <div class="portfolio-panel-gallery">
-    <img class="portfolio-panel-image" src="{{ include.image }}" />
+    <img class="portfolio-panel-image" src="{{ include.image }}" alt="{{ include.alt }}"/>
   </div>
 
 </section>
