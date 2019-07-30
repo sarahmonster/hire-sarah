@@ -717,6 +717,17 @@ figcaption {
   justify-content: center;
 }
 
+.portfolio-panel-next-panel-link {
+  text-align: center;
+  border: none;
+}
+
+.portfolio-panel-next-panel-link svg {
+  height: 48px;
+  width: 48px;
+  stroke-width: 1px;
+}
+
 .portfolio-panel-gallery {
   display: flex;
   justify-content: center;
@@ -738,6 +749,11 @@ figcaption {
 
   .portfolio-panel:nth-of-type(odd) .portfolio-panel-text {
     order: 2;
+  }
+
+  .portfolio-panel-next-panel-link svg {
+    height: 60px;
+    width: 60px;
   }
 }
 
