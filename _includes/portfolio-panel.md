@@ -9,11 +9,11 @@
   	{{ include.content | markdownify }}
 
     {% if include.metadata == "Outcomes" %}
-      <a class="portfolio-panel-next-panel-link" href="#portfolio-panel-title">
+      <a class="portfolio-panel-next-panel-link" href="#portfolio-panel-title" title="Back to top">
         {% include arrow-up-circle.svg %}
       </a>
     {% else %}
-      <a class="portfolio-panel-next-panel-link" href="#portfolio-panel-{{ nextPanel }}">
+      <a class="portfolio-panel-next-panel-link" href="#portfolio-panel-{{ nextPanel }}" title="Next panel">
         {% include arrow-down-circle.svg %}
       </a>
     {% endif %}

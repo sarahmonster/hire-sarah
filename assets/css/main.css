@@ -572,6 +572,11 @@ nav a:hover {
 .portfolio-header {
     text-align: center;
     position: relative;
+    flex-direction: column;
+}
+
+.portfolio-header .portfolio-panel-next-panel-link  {
+  margin-top: 20px;
 }
 
 .portfolio-headerss .panel-title {
@@ -718,14 +723,22 @@ figcaption {
 }
 
 .portfolio-panel-next-panel-link {
-  text-align: center;
   border: none;
+  position: relative;
+  text-align: center;
+  z-index: 2;
 }
 
 .portfolio-panel-next-panel-link svg {
   height: 48px;
   width: 48px;
   stroke-width: 1px;
+  stroke: var(--color-white);
+  fill: var(--color-neutral-600);
+}
+
+.portfolio-panel-next-panel-link:hover svg {
+  fill: var(--color-primary-dark);
 }
 
 .portfolio-panel-gallery {
