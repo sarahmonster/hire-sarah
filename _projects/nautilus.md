@@ -57,11 +57,11 @@ repo: https://nautilus.octopusthink.com/
 {% include portfolio-panel.md
   metadata="Define a colour palette"
   heading="Now for something different: colours that aren't pink"
-  content="The aim of Nautilus' colour palette is to provide a useful array of colours that allow for a wide range of different palettes and moods, but still function harmoniously when paired together.
+  content="The aim of Nautilus' colour palette is to allow for a wide range of different palettes and moods, whilst still functioning harmoniously together.
 
-  This was a pretty lengthy process, and involved a lot of very technical reading about colour! I started by working with a series of different colour pickers, but found none of them really met my needs fully, so I ended up building my own tool [reference when available] to generate colour steps in a predictable way. (Still in progress!)
+  I started the palette by working with a series of different colour pickers, but found none of them really met my needs fully. I'm currently building a tool to programmatically generate colour ramps in a consistent way.
 
-  The system provides a palette of seven colours (red, pink, purple, blue, cyan, green, yellow), each with 10 tints and shades, balanced against a greyscale gradient to ensure predictable numerical contrast for accessibility purposes. It also provides a neutral palette of greys to match. Components also check for adequete colour contrast and warn if elements don't have sufficient contrast against their backgrounds."
+  The system provides a palette of seven hues, each with 10 tints and shades, balanced against a greyscale gradient to ensure predictable numerical contrast for accessibility purposes. It also provides a neutral palette of greys to match. Components check for adequate colour contrast to ensure accessibility."
   image="/assets/img/nautilus/colour.png"
   alt="Post on make.wordpress.org inviting community to participate as researchers"
 %}
