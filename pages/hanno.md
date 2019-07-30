@@ -7,7 +7,7 @@ title: Hello Hanno! Let's make healthcare better, together.
 
 whyyou: |
 
- It may sound a bit idealistic, but I'm a big believer in the **power of technology as a tool to improve people's lives**. Healthcare is a market that often isn't as appealing to people working in technology as taxis and magical juicers, and I think that's a shame. There's a huge opportunity here to innovate in ways that will help make for a more equitable world.
+ It may sound a bit idealistic, but I'm a big believer in the **power of technology as a tool to improve people's lives**. Healthcare is a market that often isn't as appealing to techn workers as taxis and magical juicers, but I think there's a huge opportunity to innovate in ways that will help make for a more equitable world. I'd like to be a part of that.
 
  I also love your commitment to **transparency and openness**—with my experience in open source, I deeply care about keeping things open and accessible. Having worked remotely for the last 10+ years, I love that you're remote-first. And finally, I like that you're a small team but work on a lot of different projects. I'm happiest when I'm able to contribute a lot and develop a lot of different skills.
 
