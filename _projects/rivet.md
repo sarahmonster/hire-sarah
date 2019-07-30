@@ -1,6 +1,5 @@
 ---
 id: rivet
-layout: portfolio-straight
 title: Rivet
 order: 1
 image: "/assets/img/rivet.png"
@@ -8,199 +7,147 @@ tags: [user research, competitive analysis, wireframing, prototyping, visual des
 summary: An experimental project designed to vastly simplify and streamline the WordPress site-building process for small business owners by using technology to automate design decisions.
 demo: https://rivet.vip/
 ---
+{% include portfolio-panel.md
+  metadata="Introduction"
+  heading="The challenge"
+  content="Building a website from scratch is a challenge for small businesses. They often lack the resources to pay a professional, so they're forced to learn a task they don't have much interest in in order to get their web presence established.
 
-## Challenge
+  On WordPress in particular, setting up a website can be a painful process involving a great many steps, hops, and jumps and context-switching. Even for agencies and freelancers who build WordPress sites every day, the process is needlessly complex and time-consuming.
 
-Building a website from scratch is a challenge for small businesses, who often lack the resources to do it themselves. On WordPress in particular, even for professionals, setting up a website can be a painful process involving a great many steps, hops, and jumps. We wanted to make it as easy as possible to get up and running with a simple one-page website that would meet their needs.
+  Often times businesses give up and have no website at all—settling on just a Facebook page as their web presence. We can do better.
 
+  Rivet aimed to simplify that process and make it as easy as possible for small businesses to get up and running with a simple one-page website that would meet their needs. Essentially, I aimed to build a tool to design and build a website for a business, much the way I used to for my freelance clients."
 
-## Vision
+  image="/assets/img/rivet/landing-page.png"
+  alt="The landing page for the Rivet website."
+%}
 
-Setting up a site on WordPress.com is hard.
+{% include portfolio-panel.md
+  metadata="Research"
+  heading="Learning more about small businesses"
+  content="I kicked off the project with some exploratory user research, talking to small business owners to get a better understanding of their needs and pain points as they relate to websites.
 
-Rivet aimed to simplify that process by using data from existing sources and machine learning to programmatically build out starter sites for small businesses, using a minimal number of user-provided inputs and decisions.
+  A key finding was that they had no real interest in the process of building a site and didn’t have the budget to hire someone to take it on. I also discovered that content generation was a huge blocker, and many people abandoned sites on WordPress.com full of dummy content.
+
+  I also conducted competitive analysis to benchmark competitors and upstarts in this space."
+  image="/assets/img/rivet/initial-research.png"
+  alt="My notes from initial user research sessions."
+%}
+
+{% include portfolio-panel.md
+  metadata="Establishing vision"
+  heading="What exactly are we building?"
+  content="Rivet was an experimental project, so the constraints were rather loose. Nevertheless, it was important to establish a vision and guiding principles, both to inform the work itself, and to make it easier to explain what I was working on to other parts of the company.
+
+  I established that our goal would be to make a system that allowed small businesses to set up a site that feels relevant and effective in less than five minutes. The final sites would be unique and personalised to the customer, but they'd also be fully-fledged [WordPress.com](http://wordpress.com) sites that would be ready to grow as their business did.
+
+  To accomplish this, I designed a system that pulled data from existing online sources and then leveraged machine learning to programmatically build out starter sites for small businesses, using a minimal number of user-provided inputs and decisions.
 
 This broke down into a few different components:
 
-- an API that pulls a business’ data from public sources (Google Places, Facebook)
-- a machine-learning algorithm that parses provided data (existing text + imagery + some descriptive adjectives) and uses that data to suggest a colour and typography palette
-- a script that will take all that data, mash it together, and turn it into a WordPress.com site
+  - An API that pulled a business’ data from public sources (Google Places, Facebook, Instagram, etc.).
+  - A machine-learning algorithm that parsed data (existing text + imagery + some descriptive adjectives) and used that data to suggest a colour and typography palette.
+  - A script to take all that data, mash it together, and turn it into a WordPress.com site."
+    image="/assets/img/rivet/screen-flow.png"
+    alt="Screenshots showing how Rivet builds out sites for users."
+  %}
 
-The aim was that the final sites will be unique and personalised to the customer. They will be “starter sites” in that they’ll be ready to launch immediately, but you can also take the final result and customise it further. It should be possible to set up a site that feels relevant and effective for your business in less than five minutes.
+{% include portfolio-panel.md
+  metadata="Ideation"
+  heading="Let's start from the ending"
+  content="Once I had a better understanding of small businesses needs relating to websites and the existing landscape, I kicked off the project by working backward from the end result. This meant figuring out what a minimum valuable website for a small business would be—what would be the minimum amount of content and customisation we'd need to account for in order for a business owner to immediately want to publish their site?
 
+  My hypothesis was that a single-page site, with the basic details (\"about us\", logo, social media links, contact information, and hours of operation) would do the trick.
 
-## Research
+  To validate the approach, a developer and I bootstrapped a v0.1 of the functionality and then semi-manually built out sites following this template for businesses who had previously struggled to build a site on WordPress.com. When results proved positive, I moved forward with plans for increased automation."
+  image="/assets/img/rivet/site-samples.png"
+  alt="Sample single-page website designs for small businesses."
+%}
 
-I kicked off the project with some exploratory user research, talking to small business owners to get a better understanding of their needs and pain points as they relate to websites.
+{% include portfolio-panel.md
+  metadata="Sketching & wireframing"
+  heading="Putting pen to paper"
+  content="The next step was to work out how we'd get there. I started with low-fidelity sketches to plan out the overall user experience quickly. The experience is heavily modelled on my own process building websites for small business clients, and the steps in the flow are essentially programmatic representations of my own process asking clients about their business and what they wanted our of their web precense.
 
-A key finding was that they had no real interest in the process of building a site, but didn't have the budget to hire someone to take it on. We also discovered that content generation was a huge blocker, and many people abandoned sites on WordPress.com full of dummy content.
+  Once I had sketches I was happy with, I moved to higher-fidelity wireframes and prototypes."
+  image="/assets/img/rivet/sketches-wires.png"
+  alt="Initial sketches & wireframes."
+%}
 
-> Through multiple experiences of my own and hearing about others, I would have to say generating content is the hardest part of building a site. We can help you create a site in seconds and give it a professional look, but without the content, it isn’t very useful.
+{% include portfolio-panel.md
+  metadata="Prototyping"
+  heading="We're off to see the wizard (of Oz)"
+  content="When working with my development team, I presented both static wireframes of the overall flow diagram and clickable prototypes. Providing both allows for clearer communication.
 
-I also conducted competitive analysis to benchmark competitors and upstarts in this space.
+  Given the  complexity of the project, prototyping, in various forms, was critical to its success. We used wizard of Oz prototyping techniques throughout to continually check if our proposed system was heading in the right direction.
 
-## Ideation
+  These prototypes and diagrams were frequently updated and iterated on as I progressed through the process and discovered areas that needed improvement. For instance, the \"find my business\" flow was a difficult, but important, step to get right. The interface needed to strike a balance between usability and the technical limitations of the APIs we used. This flow saw a great deal of iteration between design and development.
 
-Once we had a better understanding of small businesses needs relating to websites and the existing landscape, I kicked off the project by working backward from the end result: start by working out what the minimum valuable website would be for a small-business to say “yes! that is what I want.”
-
->What is an MVP for this? It can be a basic site, more like a splash page, that answers the main questions for a business: Who we are, what we do, how to find us. The main goal is to get to something that a business owner would want to publish right away (instead of a starting point of a site that they still have to spend a bunch of time filling in and customizing).
-
-<div class="portfolio-sequence four-column">
-	<img src="/assets/img/rivet/widescreen-mock.png" class="double-size" />
-	<img src="/assets/img/rivet/mock-a.png" />
-	<img src="/assets/img/rivet/mock-c.png"/>
-	<img src="/assets/img/rivet/mock-d.png" />
-	<img src="/assets/img/rivet/mock-b.png" />
-</div>
-
-To validate the approach, the team bootstrapped a v0.1 of the functionality and then semi-manually built out sites following this template for businesses who had previously struggled to build a site on WordPress.com. When results proved positive, we moved forward to higher-fidelity plans for increased automation.
-
-
-## Design 
-
-I built wireframes and prototypes to lead development direction. These prototypes and diagrams were frequently updated and iterated on as we progressed through the process and discovered areas that needed improvement.
-
-<div class="portfolio-sequence">
-
-	<figure>
-		<img src="/assets/img/rivet/wires/original-find-my-business-flow.png"/>
-		<figcaption>Original "find-my-business" flow. This was a difficult, but important, step to get right, as we needed to strike a balance between usability and the technical limitations of the API. This flow saw a great deal of iteration between design and development.</figcaption>
-	</figure>
-
-	<figure class="double-width">
-		<img src="/assets/img/rivet/wires/find-my-business-flow.png"/>
-		<figcaption>Revised "find-my-business" flow, taking into account some technical limitations</figcaption>
-	</figure>
-
-		<figure class="double-size">
-		<img src="/assets/img/rivet/wires/login-flow.png" />
-		<figcaption>Login flow</figcaption>
-	</figure>
-
-	<figure>
-		<img src="/assets/img/rivet/wires/upload-photos.png" />
-		<figcaption>Upload photos interface</figcaption>
-	</figure>
-
-	<figure>
-		<img src="/assets/img/rivet/wires/edit-design.png" />
-		<figcaption>Edit design flow</figcaption>
-	</figure>
+  Prototypes: [original flows](https://automattic.invisionapp.com/share/4JPTIDIXG5T), [login flow](https://automattic.invisionapp.com/share/7HJT5D9DE2V), [upgrade to WordPress.com flow](https://automattic.invisionapp.com/share/ZFJSM0JY895)"
+  image="/assets/img/rivet/prototype.png"
+  alt="Screenshots from a prototype."
+  caption="Revised \"find-my-business\" flow, taking into account some technical limitationsLogin flowUpload photos interfaceEdit design flowBuild site stepKeyword selection, used to feed design choicesUpgrade to WordPress.com flow"
+%}
 
 
+{% include portfolio-panel.md
+  metadata="Copyediting"
+  heading="Language is integral to design"
+  content="Working closely with the WordPress.com editorial team, I copyedited every string in the application, paying particular attention to removing inaccessible language and ensuring that error messages were as helpful as possible.
 
-	<figure class="full-width">
-		<img src="/assets/img/rivet/wires/build-site.png" />
-		<figcaption>Build site step</figcaption>
-	</figure>
+  My guiding principle here was to be as friendly as possible. I knew that business owners typically weren't very technical, so I worked to ensure that the language was friendly and jargon-free. I limited the number of questions asked on every page to help users focus on the task at hand. I wanted them to feel as though they had a friendly helper robot guiding them through the process."
+  image="/assets/img/rivet/copyedits.png"
+  alt="Screenshots of Github issues discussing copy improvements."
+%}
 
-	<figure>
-		<img src="/assets/img/rivet/wires/choose-keywords.png" />
-		<figcaption>Keyword selection, used to feed design choices</figcaption>
-	</figure>
+{% include portfolio-panel.md
+  metadata="Visual design"
+  heading="Drawing a lot of different robots"
+  content="I collaborated again with our editorial team to develop a name for the product that communicated strength, stability, and a builder approach. We landed on _Rivet_, and I designed a friendly robot to act as a mascot.
 
-	<figure class="double-width">
-		<img src="/assets/img/rivet/wires/upgrade-flow.png" />
-		<figcaption>Upgrade to WordPress.com flow</figcaption>
-	</figure>
-</div>
+  Originally, Rivet’s visual design comprised of a language I developed from scratch, including design patterns, visual styles, and iconography. We later decided to shift the visual language to tie more closely to WordPress.com’s visual language, whilst still having its own unique spin."
 
-Prototypes: [original flows](https://automattic.invisionapp.com/share/4JPTIDIXG5T), [login flow](https://automattic.invisionapp.com/share/7HJT5D9DE2V), [upgrade to WordPress.com flow](https://automattic.invisionapp.com/share/ZFJSM0JY895)
+  caption="Early sketches An earlier iteration of the visual design of the product. Landing page design. Landing page design, mobileI drew a robot, because of course I did. If I'd had more time, he would definitely have been SVG-animated. Rivet tries first to find businesses nearby. Works great on a phone!"
+  image="/assets/img/rivet/visual-design.png"
+  alt="Sketches and illustrations of a robot mascot."
+%}
 
-## Copyediting
+{% include portfolio-panel.md
+  metadata="Making smart design decisions"
+  heading="Smarter defaults, allowing for correction"
+  content="One of the key principles of the Rivet project was to make smart decisions for users, but to allow for manual correction in case we got things wrong.
 
-Working closely with our editorial team, I copyedited every string in the application, paying particular attention to removing jargon and ensuring that error messages were as helpful as possible.
+  The system uses geolocation first to see if it can find your business, and then confirms it's found the right one. It then tries to find social media accounts to scrape additional data, bus asks if the accounts are right. It also pulls your business logo (used to generate colour schemes) and cobbles together a description of the business.
 
+  Finally, it asks for keywords, which are then used to inform visual design and styling. So if you were to enter \"natural\" and \"organic\" you might get some muted greens and browns and Papyrus, but if you were to enter \"simple\" and \"bold\" you might wind up with saturated primary shades and Helvetica.
 
-## Visual & marketing design
+  Finally, it uses all these inputs to build out a one-page site, and provides an editing interface to tweak as needed."
+  image="/assets/img/rivet/intelligence.png"
+  alt="Screenshots of Rivet making smart default choices, but allowing for user correction."
+%}
 
-Originally, Rivet's visual design comprised of a language I developed from scratch, including design patterns, visual styles, and iconography. We later decided to shift the visual language to tie more closely to WordPress.com's visual language, and
+{% include portfolio-panel.md
+  metadata="Usability testing"
+  heading="Testing with real users"
+  content="I ran usability tests iteratively throughout the process, both to test the effectiveness of the final site and to test the interface itself.
 
-I collaborated again with our editorial team to develop a name for the product that communicated strength, stability, and a builder approach. We landed on Rivet, and I designed a friendly robot to guide users through the process.
+  Initial testing was done to ensure that our hypothesised site structure was helpful for small business customers. Further testing involved moderated usability testing. I wrote a script,  comprised of a short interview, followed by a usability test, and then some follow-up questions, both qualitative and quantitative, recruited users in guerilla-fashion, and ran the interview sessions.
 
-<div class="portfolio-sequence">
+  I also established key metrics to judge our success: time to build a site, rating of ease of building site, and rating of overall value of final site.
 
-	<figure>
-		<img src="/assets/img/rivet/visuals/sketch1.jpg" />
-		<figcaption>Early sketches</figcaption>
-	</figure>
+  Further rounds of testing were done at each milestone as the prototype developed."
+  image="/assets/img/rivet/usability-testing.png"
+  alt="Write-ups from usability testing, showing quantitative data."
+%}
 
-	<figure>
-		<img src="/assets/img/rivet/visuals/sketch2.jpg" />
-		<figcaption>Early sketches</figcaption>
-	</figure>
+{% include portfolio-panel.md
+  metadata="Outcomes"
+  heading="What did I accomplish?"
+  content="I led this project from a design, product, and vision perspective as it morphed across two different teams and different projects, and continue to be heavily involved in sharing the approaches that worked (and didn’t work) here with different projects across the company.
 
-	<figure>
-		<img src="/assets/img/rivet/visuals/sketch3.jpg" />
-		<figcaption>Early sketches</figcaption>
-	</figure>
+  Rivet was an experimental projected piloted by Automattic's internal R&D team, who typically don't tend to launch products. Whilst the project itself was successful, and usability testing indicated that the flow was better for users than our existing flow, we didn't have the resources to support the product and brand.
 
-	<figure>
-		<img src="/assets/img/rivet/visuals/early-visual.png" />
-		<figcaption>An earlier iteration of the visual design of the product</figcaption>
-	</figure>
-
-	<figure class="double-size">
-		<img src="/assets/img/rivet/visuals/landingpage-desktop.png" />
-		<figcaption>Landing page design</figcaption>
-	</figure>
-
-	<figure class="full-height">
-		<img src="/assets/img/rivet/visuals/landingpage-mobile.png" />
-		<figcaption>Landing page design, mobile</figcaption>
-	</figure>
-
-	<figure class="double-width">
-		<img src="/assets/img/rivet/visuals/robot.png" class="noshadow"/>
-		<figcaption>I drew a robot, because of course I did. If we'd had more time, he would definitely have been SVG-animated.</figcaption>
-	</figure>
-
-	<figure class="double-width">
-		<img src="/assets/img/rivet/screenshots/address.png" />
-		<figcaption>Rivet tries first to find businesses nearby. Works great on a phone!</figcaption>
-	</figure>
-
-	<figure>
-		<img src="/assets/img/rivet/screenshots/is-this-you.png" />
-		<figcaption>Rivet confirms it's found the right business...</figcaption>
-	</figure>
-
-	<figure>
-		<img src="/assets/img/rivet/screenshots/social-entry.png" />
-		<figcaption>...then asks if it's found the right social media accounts for you.</figcaption>
-	</figure>
-
-	<figure>
-		<img src="/assets/img/rivet/screenshots/keyword-entry.png" />
-		<figcaption>Keywords are used to inform design decisions, so if you enter "natural" here...</figcaption>
-	</figure>
-
-	<figure class="double-width">
-		<img src="/assets/img/rivet/screenshots/colours.png" />
-		<figcaption>...the colours on your site are a bit more muted.</figcaption>
-	</figure>
-
-
-</div>
-
-
-## Testing
-
-Testing was conducted iteratively throughout the process, both to test the effectiveness of the final site and to test the interface itself.
-
-Initial testing was done by semi-manually building sites for Business Concierge customers and ensuring the output sites are helpful as a starting point. A second round of testing was done for our social user milestone. Once we were ready for more testing, we opened an internal call for testing.
-
-The next test involved moderated user sessions. Testing comprised a short interview, followed by a usability test, and then some follow-up questions, both qualitative and quanititative.
-
-Key metrics to judge our success included: time to build a site, rating of ease of building site, and rating of overall value of final site.
-
-Further rounds of testing were done at each milestone as the prototype develops.
-
-
-## Results
-
-I led this project from a design, product, and vision perspective as it morphed across two different teams and different projects, and continue to be heavily involved in sharing the approaches that worked (and didn't work) here with different projects across the company.
-
-Rivet was an experimental projected piloted by a team responsible for experimentations, and one of the key troubles we faced was the lack of resources to fully support a product and brand.
-
-Design patterns, approaches, and Rivet's API are now being implemented in the WordPress mobile app, in WordPress.com signup, and in third-party importers.
+  Far from an abandoned work, Rivet has been used as a yardstick for innovation and improvements to WordPress.com. A year later, the design patterns, approaches, and Rivet’s API are now being implemented in Automattic products: the WordPress mobile app, in WordPress.com onboarding, and in third-party importers."
+  image="/assets/img/rivet/rivet-bot.png"
+  alt="A robot waving."
+%}
