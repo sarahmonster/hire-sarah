@@ -1,7 +1,14 @@
 {% assign projects = site.projects | sort: 'order' %}
 {% for project in projects %}
+
+{% if project.thumbnail %}
+	{% assign thumbnailURL = project.thumbnail %}
+{% else %}
+	{% assign thumbnailURL = project.image %}
+{% endif %}
+
 <article class="portfolio-item">
-	<img src="{{ project.image }}">
+	<img src="{{ thumbnailURL }}">
 
 	<div class="project-details">
 		<h3 class="subtitle">{{ project.title }}</h3>
