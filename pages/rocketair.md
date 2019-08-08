@@ -6,9 +6,9 @@ company: RocketAir
 title: Hello RocketAir! Let's make great things together.
 
 whyyou: |
- One of the things I miss most about freelancing is the *ability to work across a wide range of different industries*. I love being able to learn a little about lots of different businesses and absorb some whatevers from that.
+ One of the things I miss most about freelancing is the ability to work across a wide range of different industries. I love being able to learn a little about lots of different businesses and gain more context about the world around me from it.
 
- And finally, I like that you're a small team but work on a lot of different projects. I'm happiest when I'm able to contribute a lot and develop a lot of different skills.
+ I’m definitely a designer-first, but I pride myself in _also_ being a great generalist. I like that you’re a small team but work on a lot of different projects. I’m happiest when I’m able to contribute a lot and develop a lot of different skills, and I’d love to be able to design great things with you.
 
  In short: I think we'd make a great fit!
 
