@@ -14,13 +14,10 @@ whyyou: |
 
 whyme: |
 
+ I have **over ten years of visual and product design experience**, during which time I've worn many different hats, spanning from research and product management, to visual design and branding, to prototyping and interaction design. I have a strong technical background that allows me to interface skilfully with development teams.
 
-Core Skills
+ This wide-ranging general knowledge allows me to approach my work in a holistic way and take responsibility for the entirety of the design lifecycle. I'm highly adaptable and capable of contributing at all levels, from **strategy to implementation**, and I'm a natural leader who has experience leading other designers on project work.
 
-  I have **over ten years of visual and product design experience**, during which time I've worn many different hats, spanning from research and product management, to visual design and branding, to prototyping and interaction design. I have a strong technical background that allows me to interface skilfully with development teams.
-
-  This wide-ranging general knowledge allows me to approach my work in a holistic way and take responsibility for the entirety of the design lifecycle. I'm highly adaptable and capable of contributing at all levels, from **strategy to implementation**, and I'm a natural leader who has experience leading other designers on project work.
-
-  My experience in open-source and freelance work has given me excellent communication skills. I'm great at **defending design decisions** and framing decisions for stakeholders and clients, as well as dealing with a range of different types of companies and organisations and navigating the complexities of coordinating work across timezones. Having spent eight years freelancing, I'm extremely **proactive and self-motivated**. There is very little I can't figure out how to do, and I like getting things done.
+ My experience in open-source and freelance work has given me excellent communication skills. I'm great at **defending design decisions** and framing decisions for stakeholders and clients, as well as dealing with a range of different types of companies and organisations and navigating the complexities of coordinating work across timezones. Having spent eight years freelancing, I'm extremely **proactive and self-motivated**. There is very little I can't figure out how to do, and I like getting things done.
 
 ---
