@@ -23,7 +23,9 @@ repo: https://gutenbergresearch.wordpress.com/
 {% include portfolio-panel.md
   metadata="Kickoff"
   heading="Stakeholder interviews"
-  content="To kick off the project, I started with a series of stakeholder interviews. I interviewed a variety of people, from project leads to community plugin developers, to inform the scope and goals of the research."
+  content="To kick off the project, I started with a series of stakeholder interviews. I interviewed a variety of people, from project leads to community plugin developers, to inform the scope and goals of the research.
+
+  I then used post-it notes to cluster the insights in different groupings. The insights gathered at this stage helped inform the goals of the research and how we’d share results, as well as providing historical context and increasing stakeholder participation in the process."
   image="/assets/img/site-building-study/stakeholder-insights.png"
   alt="A board of post-it notes showing insights from stakeholder interviews."
 %}
@@ -65,9 +67,10 @@ repo: https://gutenbergresearch.wordpress.com/
 {% include portfolio-panel.md
   metadata="User interviews"
   heading="Making new friends"
-  content="Since our researchers were new to the research process, much of the work was education. I created guides for each individual role (moderator, note-taker, and observer) and tracked when researchers took on which roles.
+  content="Since our researchers were new to the research process, I created guides for each individual role (moderator, note-taker, and observer) and mentored new researchers in their roles.
 
-  All sessions were run remotely with a private Slack channel for researchers to share questions and notes whilst the session was running. I ended up moderating most of the interviews myself, but benefitted from a number of note-takers on the calls.
+  All sessions were run remotely with a private Slack channel for researchers to share questions and notes.
+
 
   Sessions involved a preliminary interview, followed by an experimental session where we looked over their shoulder as they worked on their own websites, followed by more follow-up conversations.
 
@@ -79,13 +82,9 @@ repo: https://gutenbergresearch.wordpress.com/
 {% include portfolio-panel.md
   metadata="Data synthesis"
   heading="Trying to make sense of it all"
-  content="We had a whole lot of data to sift through. Again, this became a community effort, involving a number of community researchers, some of whom had been involved in the sessions.
+  content="Once we'd finished talking to 17 users, we had a whole lot of data to sift through. I lead the more community researchers in the analysis.
 
-  To coordinate the [synthesis of data](https://paper.dropbox.com/doc/Research-synthesis-plan-of-attack--AhRBMJ6bHU2AIWTVQmw8BodgAg-ujM9Z3MS42quQyv0FP33M), I created a [database to code notes & observations](https://airtable.com/invite/l?inviteId=invgIkmtbjmxHSynX&inviteToken=00f6685b5b2a2934ad87a61af6638723c95f08d38f8e2e350f0df2b33d784df2) in a structured way. I asked for volunteers and then assigned each volunteer to a session, which they were responsible for encoding. Researchers pulled out:
-
-  - Stories
-  - Tasks, motivations, emotions, drives
-  - Insights and pain points
+  To coordinate the [synthesis of data](https://paper.dropbox.com/doc/Research-synthesis-plan-of-attack--AhRBMJ6bHU2AIWTVQmw8BodgAg-ujM9Z3MS42quQyv0FP33M), I created a [database to code notes & observations](https://airtable.com/invite/l?inviteId=invgIkmtbjmxHSynX&inviteToken=00f6685b5b2a2934ad87a61af6638723c95f08d38f8e2e350f0df2b33d784df2) in a structured way. I assigned each researcher to a session, which they were responsible for encoding. Researchers pulled out: stories and quotes; tasks, motivations, emotions, drives; insights and pain points.
 
   Once the data was encoded, I configured different views to start looking for patterns. I discovered behaviour-based segmentation groups in the data and split it that way, then focussed on determining patterns across the segments."
   image="/assets/img/site-building-study/insights-database.png"
@@ -107,17 +106,11 @@ repo: https://gutenbergresearch.wordpress.com/
 {% include portfolio-panel.md
   metadata="Outcomes"
   heading="What did I accomplish?"
-  content="
-  - Increased WordPress community interest in participating in research efforts
-  - Learnt a lot about real users' behaviours and expectations when building their site
-  - Results are used to inform product decisions moving forward
-  - Led a team of 25 researchers, many of whom were new to research.
+  content="  I led and mentored a team of 25 researchers, many of whom were new to research. In addition to learning a great deal about real users' behaviours and expectations, I generated community interest in participating in and conducting research efforts.
 
-  In order to instil an appreciation for user research methods and to
-  make it simpler for anyone within the community to conduct their own
-  research, I’ve been developing a research framework & toolkit. This
-  framework is being built up and tested iteratively as we conduct
-  individual research studies, but comprises of a series of guides and
+  Results from the study are used to inform product decisions across the WordPress project, and to form a foundation for further user research.
+
+  To further empower the community, I’ve been developing an open-source research framework & toolkit, comprising of a series of guides and
   templates, a platform for easy testing, a pre-recruited database of warm leads from which to recruit, and a database of insights gleaned from
   previous research."
   image="/assets/img/site-building-study/stats.png"

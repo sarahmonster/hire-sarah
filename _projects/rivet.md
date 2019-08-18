@@ -11,13 +11,11 @@ demo: https://rivet.vip/
 {% include portfolio-panel.md
   metadata="Introduction"
   heading="The challenge"
-  content="Building a website from scratch is a challenge for small businesses. They often lack the resources to pay a professional, so they're forced to learn a task they don't have much interest in in order to get their web presence established.
+  content="Building a website from scratch is a challenge for small businesses, who often lack the resources to pay a professional. Doing it yourself can be a painful process involving a great many steps and continual context-switching. Even for agencies and freelancers who build WordPress sites every day, the process is needlessly complex and time-consuming.
 
-  On WordPress in particular, setting up a website can be a painful process involving a great many steps, hops, and jumps and context-switching. Even for agencies and freelancers who build WordPress sites every day, the process is needlessly complex and time-consuming.
+  Often times businesses give up and have no website at all—settling on just a Facebook page as their web presence.
 
-  Often times businesses give up and have no website at all—settling on just a Facebook page as their web presence. We can do better.
-
-  Rivet aimed to simplify that process and make it as easy as possible for small businesses to get up and running with a simple one-page website that would meet their needs. Essentially, I aimed to build a tool to design and build a website for a business, much the way I used to for my freelance clients."
+  Rivet aimed to simplify that process and make it as easy as possible for small businesses to get up and running with a simple one-page website that would meet their needs. The goal was to automate as much of the process of designing and building a website as possible."
 
   image="/assets/img/rivet/landing-page.png"
   alt="The landing page for the Rivet website."
@@ -38,17 +36,11 @@ demo: https://rivet.vip/
 {% include portfolio-panel.md
   metadata="Establishing vision"
   heading="What exactly are we building?"
-  content="Rivet was an experimental project, so the constraints were rather loose. Nevertheless, it was important to establish a vision and guiding principles, both to inform the work itself, and to make it easier to explain what I was working on to other parts of the company.
+  content="Before we started, it was important to establish a vision and guiding principles—both to inform the work itself, and to help communicate the project to stakeholders.
 
   I established that our goal would be to make a system that allowed small businesses to set up a site that feels relevant and effective in less than five minutes. The final sites would be unique and personalised to the customer, but they'd also be fully-fledged [WordPress.com](http://wordpress.com) sites that would be ready to grow as their business did.
 
-  To accomplish this, I designed a system that pulled data from existing online sources and then leveraged machine learning to programmatically build out starter sites for small businesses, using a minimal number of user-provided inputs and decisions.
-
-This broke down into a few different components:
-
-  - An API that pulled a business’ data from public sources (Google Places, Facebook, Instagram, etc.).
-  - A machine-learning algorithm that parsed data (existing text + imagery + some descriptive adjectives) and used that data to suggest a colour and typography palette.
-  - A script to take all that data, mash it together, and turn it into a WordPress.com site."
+  To accomplish this, I designed a system that pulled data from existing online sources and then leveraged machine learning to programmatically build out starter sites for small businesses, using a minimal number of user-provided inputs and decisions."
     image="/assets/img/rivet/screen-flow.png"
     alt="Screenshots showing how Rivet builds out sites for users."
   %}
@@ -56,11 +48,11 @@ This broke down into a few different components:
 {% include portfolio-panel.md
   metadata="Ideation"
   heading="Let's start from the ending"
-  content="Once I had a better understanding of small businesses needs relating to websites and the existing landscape, I kicked off the project by working backward from the end result. This meant figuring out what a minimum valuable website for a small business would be—what would be the minimum amount of content and customisation we'd need to account for in order for a business owner to immediately want to publish their site?
+  content="Once I had a better understanding of small businesses' needs and the existing landscape, I kicked off the project by working backward from the end result. This meant figuring out what a minimum valuable website for a small business would be: how much content and customisation would be needed for a business owner to immediately want to publish their site?
 
   My hypothesis was that a single-page site, with the basic details (\"about us\", logo, social media links, contact information, and hours of operation) would do the trick.
 
-  To validate the approach, a developer and I bootstrapped a v0.1 of the functionality and then semi-manually built out sites following this template for businesses who had previously struggled to build a site on WordPress.com. When results proved positive, I moved forward with plans for increased automation."
+  To validate the approach, a developer and I bootstrapped a v0.1 of the functionality and then semi-manually built out sites following this template for businesses who had previously struggled to build a site on WordPress.com. When results proved positive, we moved forward with plans for increased automation."
   image="/assets/img/rivet/site-samples.png"
   alt="Sample single-page website designs for small businesses."
 %}
@@ -68,7 +60,7 @@ This broke down into a few different components:
 {% include portfolio-panel.md
   metadata="Sketching & wireframing"
   heading="Putting pen to paper"
-  content="The next step was to work out how we'd get there. I started with low-fidelity sketches to plan out the overall user experience quickly. The experience is heavily modelled on my own process building websites for small business clients, and the steps in the flow are essentially programmatic representations of my own process asking clients about their business and what they wanted our of their web precense.
+  content="The next step was to work out how we'd get there. I started with low-fidelity sketches to plan out the overall user experience quickly. The experience is heavily modelled on my own process building websites for small business clients, and the steps in the flow are essentially programmatic representations of my own process asking clients about their business and what they wanted our of their web presence.
 
   Once I had sketches I was happy with, I moved to higher-fidelity wireframes and prototypes."
   image="/assets/img/rivet/sketches-wires.png"
@@ -80,7 +72,7 @@ This broke down into a few different components:
   heading="We're off to see the wizard (of Oz)"
   content="When working with my development team, I presented both static wireframes of the overall flow diagram and clickable prototypes. Providing both allows for clearer communication.
 
-  Given the  complexity of the project, prototyping, in various forms, was critical to its success. We used wizard of Oz prototyping techniques throughout to continually check if our proposed system was heading in the right direction.
+  Given the  complexity of the project, prototyping, in various forms, was critical to its success. We used Wizard of Oz prototyping techniques throughout to continually check if our proposed system was heading in the right direction.
 
   These prototypes and diagrams were frequently updated and iterated on as I progressed through the process and discovered areas that needed improvement. For instance, the \"find my business\" flow was a difficult, but important, step to get right. The interface needed to strike a balance between usability and the technical limitations of the APIs we used. This flow saw a great deal of iteration between design and development.
 
@@ -116,11 +108,11 @@ This broke down into a few different components:
 {% include portfolio-panel.md
   metadata="Making smart design decisions"
   heading="Smarter defaults, allowing for correction"
-  content="One of the key principles of the Rivet project was to make smart decisions for users, but to allow for manual correction in case we got things wrong.
+  content="A key principle of Rivet was to make smart decisions for users, but to allow for manual correction in case we got things wrong.
 
-  The system uses geolocation first to see if it can find your business, and then confirms it's found the right one. It then tries to find social media accounts to scrape additional data, bus asks if the accounts are right. It also pulls your business logo (used to generate colour schemes) and cobbles together a description of the business.
+  The system uses geolocation to find your business, then confirms it's found the right one. It finds social media accounts to scrape additional data, but checks to confirm. It then gets your logo, generates a colour scheme, and pieces together an about page.
 
-  Finally, it asks for keywords, which are then used to inform visual design and styling. So if you were to enter \"natural\" and \"organic\" you might get some muted greens and browns and Papyrus, but if you were to enter \"simple\" and \"bold\" you might wind up with saturated primary shades and Helvetica.
+  Then it asks for keywords, which are used to inform visual design and styling. So if you were to enter \"natural\" and \"organic\" you might get some muted greens and browns and Papyrus, but if you were to enter \"simple\" and \"bold\" you might wind up with saturated primary shades and Helvetica.
 
   Finally, it uses all these inputs to build out a one-page site, and provides an editing interface to tweak as needed."
   image="/assets/img/rivet/intelligence.png"
@@ -132,9 +124,7 @@ This broke down into a few different components:
   heading="Testing with real users"
   content="I ran usability tests iteratively throughout the process, both to test the effectiveness of the final site and to test the interface itself.
 
-  Initial testing was done to ensure that our hypothesised site structure was helpful for small business customers. Further testing involved moderated usability testing. I wrote a script,  comprised of a short interview, followed by a usability test, and then some follow-up questions, both qualitative and quantitative, recruited users in guerilla-fashion, and ran the interview sessions.
-
-  I also established key metrics to judge our success: time to build a site, rating of ease of building site, and rating of overall value of final site.
+  I wrote a script comprised of a short interview followed by a usability test and follow-up questions, both qualitative and quantitative. I recruited users in guerilla-fashion, and ran the interview sessions. I also established key metrics to judge our success: time to build a site, rating of ease of building site, and rating of overall value of final site.
 
   Further rounds of testing were done at each milestone as the prototype developed."
   image="/assets/img/rivet/usability-testing.png"

@@ -15,7 +15,7 @@ repo: https://gutenbergresearch.wordpress.com/
 
   In WordPress, building navigation relies on a pre-existing understanding of WordPress internals. This doesn’t map to users’ mental model of how navigation menus should work. There are multiple ways to create a menu that all offer slightly different experiences, increasing confusion. Creating a link to certain parts of the site often requires manual work.
 
-  With the Gutenberg post editor expanding to encompass a full-site editing experience, we had an opportunity to solve these problems by designing an new paradigm for menu-building."
+  With the Gutenberg post editor expanding to encompass a full-site editing experience, we had an opportunity to solve these problems by designing a new paradigm for menu-building."
   image="/assets/img/navigation-menu-block/legacy-menus.png"
   alt="The legacy menu administration screen in WordPress."
 %}
@@ -43,8 +43,9 @@ repo: https://gutenbergresearch.wordpress.com/
 {% include portfolio-panel.md
   metadata="Initial explorations"
   heading="Flipping the first pancakes"
-  content="We then went wide with our explorations, sketching and prototyping a number of divergent ideas. We presented two of these ideas publicly after collecting internal feedback.
-"
+  content="I worked with another designer, collaborating and bouncing ideas off one another continually.
+
+  We started by going broad with our explorations, sketching and prototyping a number of divergent ideas. After collecting informal feedback internally, we polished and presented two of these concepts publicly."
   image="/assets/img/navigation-menu-block/sketches.png"
   alt="Initial sketches of different menu builder concepts"
 %}
@@ -52,15 +53,13 @@ repo: https://gutenbergresearch.wordpress.com/
 {% include portfolio-panel.md
   metadata="Iteration"
   heading="Into the woods we go"
-  content="Based on feedback and discussion, we broke the problem down into smaller pieces in order to explore each in detail:
+  content="Based on feedback and discussion, we broke the problem down into smaller pieces in order to explore each in detail, framing each part of the problem from the user’s perspective:
 
-  1. [What happens when I add a menu?](https://github.com/WordPress/gutenberg/issues/13786) (smart defaults, onboarding)
-  2. [How do I add an item to my menu?](https://github.com/WordPress/gutenberg/issues/13789) (child blocks, link interface, types of content to include)
-  3. [How do I edit that menu item?](https://github.com/WordPress/gutenberg/issues/13790) (renaming, settings)
-  4. [How do I rearrange items in my menu?](https://github.com/WordPress/gutenberg/issues/13792) (ordering, hierarchy, sub-menus)
-  5. [How are menus and menu items presented visually?](https://github.com/WordPress/gutenberg/issues/13791) (focussed state, horizontal/vertical styling)
-
-  Myself and another designer divided & conquered here, collaborating and sharing feedback frequently."
+  1. [What happens when I add a menu?](https://github.com/WordPress/gutenberg/issues/13786)
+  2. [How do I add an item to my menu?](https://github.com/WordPress/gutenberg/issues/13789)
+  3. [How do I edit that menu item?](https://github.com/WordPress/gutenberg/issues/13790)
+  4. [How do I rearrange items in my menu?](https://github.com/WordPress/gutenberg/issues/13792)
+  5. [How are menus and menu items presented visually?](https://github.com/WordPress/gutenberg/issues/13791)"
   image="/assets/img/navigation-menu-block/mockups.png"
   alt="Mockups of different menu builder concepts"
 %}
@@ -68,7 +67,7 @@ repo: https://gutenbergresearch.wordpress.com/
 {% include portfolio-panel.md
   metadata="Prototyping"
   heading="Spending a lot of time in Figma"
-  content="We brought our best ideas together into a Figma protoype and an initial proposal."
+  content="After exploration, discussions, and iterations, we brought our best ideas together into a [clickable Figma prototype](https://www.figma.com/file/FvlTIGvEnr5nbDoLxbOjNn/Navigation-Menu-Block-Combined-Prototype?node-id=162%3A2520) and a [written proposal](https://make.wordpress.org/design/2019/02/26/proposal-navigation-menu-block/), presented with background, guiding principles, a UX flow diagram, mockups, an open request for structured feedback."
   image="/assets/img/navigation-menu-block/prototype.gif"
   alt="Animation of prototyped navigation menu block interface and interaction."
 %}
@@ -76,7 +75,7 @@ repo: https://gutenbergresearch.wordpress.com/
 {% include portfolio-panel.md
   metadata="Accessibility"
   heading="Designing inclusively"
-  content="Accessibility concerns over Gutenberg had been a huge source of friction in the first phase, so I wanted to be very sure we were taking into account accessibility concerns from the outset. As we narrowed down our prototype, I arranged for periodic walkthroughs with a member of the accessibility team to catch any potential issues early on.
+  content="Accessibility concerns over Gutenberg had been a huge source of friction in the first phase, so I wanted to be very sure we were taking into account accessibility concerns from the outset. As we narrowed down our prototype, I arranged for periodic [walkthroughs with a member of the accessibility team](https://make.wordpress.org/design/2019/03/01/video-accessibility-walkthrough-of-navigation-menu-block-designs/) to catch any potential issues early on.
 
   Posting the first of these publicly had an added side benefit of helping to heal those tensions and show that design is considering accessibility concerns from the outset, rather than tacking it on at the end. Community feedback was wildly positive and my leadership here went a long way to improving frayed relations."
   image="/assets/img/navigation-menu-block/accessibility-walkthrough.png"
