@@ -802,6 +802,7 @@ figcaption {
 .portfolio-panel-image {
   box-shadow: none;
   max-width: 100%;
+  max-height: 95vh;
   margin: 0;
 }
 
