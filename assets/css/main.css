@@ -171,7 +171,7 @@ blockquote {
     color: var(--color-neutral-400);
     font-size: 1.2em;
     position: relative;
-    font-style: italic;
+    font-style: normal;
 }
 
 blockquote:before {
@@ -180,7 +180,7 @@ blockquote:before {
     color: var(--color-neutral-200);
     font-size: 4em;
     position: absolute;
-    top: -0.125em;
+    top: -0.025em;
     left: -0.5em;
     line-height: 1;
     font-family: Georgia, serif;
@@ -773,6 +773,10 @@ figcaption {
 .portfolio-panel-text {
   background: var(--color-black);
   color: var(--color-neutral-100);
+}
+
+.portfolio-panel-text blockquote {
+  color: var(--color-neutral-200);
 }
 
 .portfolio-panel-text .dates {
