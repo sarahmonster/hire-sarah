@@ -6,7 +6,7 @@ thumbnail: "/assets/img/mic-drop.png"
 background: "/assets/img/mic-drop/mic-drop-title.png"
 tags: [user research, competitive analysis, wireframing, prototyping, visual design, development direction, front-end development, usability testing, product management]
 summary: A macOS menubar app to help people have better meetings. Featured by Apple and by MacRumors, beloved by users.
-demo: https://getmicdrop.com
+site: https://getmicdrop.com
 ---
 {% include portfolio-panel.md
   metadata="Introduction"
@@ -16,6 +16,7 @@ demo: https://getmicdrop.com
   I designed a macOS app to combat this problem. Mic Drop allows you to control your system mute state with a keyboard shortcut or menubar control. It shows your current mute state in your menubar, an optional floating status window, or a number of different notifications."
 
   image="/assets/img/mic-drop/computer-demo.png"
+  video="https://www.youtube.com/embed/o7TDZtSCoQQ?si=nwv4xBkGsVIccYty"
   alt=""
 %}
 
