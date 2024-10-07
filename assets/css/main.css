@@ -519,15 +519,21 @@ nav a:hover {
 /* ==========================================================================
    Portfolio panel
    ========================================================================== */
+
+#portfolio .panel-contents {
+    max-width: 880px;
+}
+
 .portfolio-item {
     display: grid;
     grid-gap: 2em;
     margin-bottom: 4em;
+    align-items: center;
 }
 
 .portfolio-item img {
-    height: 200px;
-    width: 200px;
+    height: 320px;
+    width: 320px;
     margin: 0;
     border-radius: 50%;
     object-fit: cover;
@@ -535,11 +541,11 @@ nav a:hover {
 
 @media screen and (min-width: 640px) {
     .portfolio-item:nth-of-type(odd) {
-        grid-template-columns: 200px auto;
+        grid-template-columns: 320px auto;
     }
 
     .portfolio-item:nth-of-type(even) {
-        grid-template-columns: auto 200px;
+        grid-template-columns: auto 320px;
     }
 
     .portfolio-item:nth-of-type(even) .project-details {
