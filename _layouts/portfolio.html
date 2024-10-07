@@ -50,13 +50,17 @@ name: portfolio
             {% endfor %}
           </div>
 
-          <div class="portfolio-links" style="display: none">
+          <div class="portfolio-links">
             {% if page.repo %}
               <a href="{{ page.repo }}" rel="nofollow noreferrer">Source</a>
             {% endif %}
 
             {% if page.demo %}
               <a href="{{ page.demo }}" rel="nofollow noreferrer">Demo</a>
+            {% endif %}
+
+            {% if page.site %}
+            <a href="{{ page.site }}" rel="nofollow noreferrer">Visit Site</a>
             {% endif %}
 
             {% if page.prototype %}

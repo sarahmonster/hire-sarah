@@ -7,7 +7,7 @@ title: Chief Design Officer
 
 **Lead branding, marketing, visual and product design**, as well as strategic direction and project management for independent and freelance projects. Art direction, visual & product design. User research, wireframing, prototyping. Design systems, open source, front-end development. Writing, marketing, social media.
 
-[**Mic Drop**](https://getmicdrop.com): a menubar app mic-muting featured by Apple and by MacRumours. Built in SwiftUI. 
+[**Mic Drop**](https://getmicdrop.com): a menubar app mic-muting featured by Apple and by MacRumours. Built in SwiftUI.
 <br />
 [**Turnip**](https://turniptimer.com): a timer app with seamless integrations with small business tools. Built in React and Electron.
 
