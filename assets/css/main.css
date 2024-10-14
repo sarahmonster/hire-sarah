@@ -521,24 +521,68 @@ nav a:hover {
    ========================================================================== */
 
 #portfolio .panel-contents {
-    max-width: 880px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-gap: 2em;
+    /*grid-template-columns: 1fr 1fr;*/
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    @media screen and (min-width: 640px) {
+       
+    }
+}
+
+#portfolio .panel-title {
+    grid-column: 1 / -1;
+    width: fit-content;
 }
 
 .portfolio-item {
-    display: grid;
+    /* display: grid; */
     grid-gap: 2em;
     margin-bottom: 4em;
     align-items: center;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    background: var(--color-neutral-100);
 }
 
 .portfolio-item img {
-    height: 320px;
-    width: 320px;
+    height: 240px;
+    width: 100%;
     margin: 0;
-    border-radius: 50%;
     object-fit: cover;
 }
 
+.portfolio-item .project-details {
+    border-top: 3px solid var(--color-primary-light);
+    padding: 24px;
+}
+
+.portfolio-item .project-details .subtitle {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: var(--color-primary-dark);
+}
+
+.portfolio-item .project-details .project-description p {
+    font-size: 0.9em;
+    color: var(--color-neutral-500);
+    margin-bottom: 0.5em;
+}
+
+.portfolio-item .project-details a {
+    font-size: 0.9em;
+    color: var(--color-secondary-dark);
+}
+
+
+
+
+
+/* 
 @media screen and (min-width: 640px) {
     .portfolio-item:nth-of-type(odd) {
         grid-template-columns: 320px auto;
@@ -551,7 +595,7 @@ nav a:hover {
     .portfolio-item:nth-of-type(even) .project-details {
         order: -1;
     }
-}
+} */
 
 /* ==========================================================================
    CV panel
