@@ -7,6 +7,7 @@ background: "/assets/img/smitten-kitchen/background.png"
 tags: [VISUAL DESIGN, CLIENT WORK, PROJECT MANAGEMENT, FRONT-END DEVELOPMENT]
 summary: Smitten Kitchen is a popular and active food blog that was looking for a revamp. I redesigned the whole site, built out a lot of new functionality, then migrated all content to new architecture.
 repo: https://smittenkitchen.com/
+public: true
 ---
 
 {% include portfolio-panel.md

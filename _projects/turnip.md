@@ -7,6 +7,7 @@ background: "/assets/img/turnip/turnip-title.png"
 tags: [user research, competitive analysis, wireframing, prototyping, visual design, development direction, front-end development, usability testing, product management]
 summary: A timer app designed for freelancers and small businesses. Integrations with popular bookkeeping systems.
 site: https://turniptimer.com
+public: true
 ---
 {% include portfolio-panel.md
   metadata="Introduction"

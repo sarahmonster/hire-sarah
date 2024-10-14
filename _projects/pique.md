@@ -8,6 +8,7 @@ tags: [competitive analysis, wireframing, prototyping, visual design, front-end 
 summary: A WordPress.com theme designed for small businesses, now in use on nearly one million WordPress sites.
 repo: https://github.com/Automattic/themes/tree/master/pique
 demo: https://piquedemo.wordpress.com/
+public: true
 ---
 
 {% include portfolio-panel.md

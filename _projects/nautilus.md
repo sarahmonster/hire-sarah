@@ -7,6 +7,7 @@ background: "/assets/img/nautilus/background-pattern.png"
 tags: [documentation, leadership, design-systems, visual-design, React, project management, accessibility, design-principles]
 summary: An open-source design system and React component library to help designers and developers build better digital products together. Designed for inclusivity, usability, and flexibility.
 repo: https://nautilus.octopusthink.com/
+public: true
 ---
 
 {% include portfolio-panel.md

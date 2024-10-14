@@ -6,6 +6,7 @@ image: "/assets/img/site-building-study/site-builder-journey-map.png"
 tags: [user research, user journey mapping, affinity mapping, leadership, community management, documentation, data visualisation]
 summary: An exploratory user research study, conducted in the open and with community participation, to uncover users' mental models relating to building websites.
 repo: https://gutenbergresearch.wordpress.com/
+public: true
 ---
 
 {% include portfolio-panel.md
