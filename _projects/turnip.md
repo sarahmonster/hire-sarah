@@ -1,13 +1,15 @@
 ---
 id: turnip
 title: Turnip
-order: 0
+order: 2
 thumbnail: "/assets/img/turnip.png"
 background: "/assets/img/turnip/turnip-title.png"
 tags: [user research, competitive analysis, wireframing, prototyping, visual design, development direction, front-end development, usability testing, product management]
 summary: A timer app designed for freelancers and small businesses. Integrations with popular bookkeeping systems.
 site: https://turniptimer.com
 public: true
+featured: true
+logo: "/assets/img/turnip-logo.svg"
 ---
 {% include portfolio-panel.md
   metadata="Introduction"

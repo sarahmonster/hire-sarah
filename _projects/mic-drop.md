@@ -8,6 +8,8 @@ tags: [user research, competitive analysis, wireframing, prototyping, visual des
 summary: A macOS menubar app to help people have better meetings. Featured by Apple and by MacRumors, beloved by users.
 site: https://getmicdrop.com
 public: true
+featured: true
+logo: "/assets/img/mic-drop-logo.svg"
 ---
 {% include portfolio-panel.md
   metadata="Introduction"

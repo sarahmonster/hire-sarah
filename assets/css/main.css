@@ -521,13 +521,12 @@ nav a:hover {
    ========================================================================== */
 
 #portfolio .panel-contents {
-    max-width: 1600px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-gap: 2em;
-    /*grid-template-columns: 1fr 1fr;*/
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     @media screen and (min-width: 640px) {
        
     }
@@ -539,18 +538,16 @@ nav a:hover {
 }
 
 .portfolio-item {
-    /* display: grid; */
     grid-gap: 2em;
-    margin-bottom: 4em;
     align-items: center;
     border-radius: 24px;
     overflow: hidden;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    background: var(--color-neutral-100);
+    background: var(--color-neutral-600);
 }
 
 .portfolio-item img {
-    height: 240px;
+    height: auto;
     width: 100%;
     margin: 0;
     object-fit: cover;
@@ -562,20 +559,60 @@ nav a:hover {
 }
 
 .portfolio-item .project-details .subtitle {
-    font-size: 1.2em;
-    margin-bottom: 0.5em;
-    color: var(--color-primary-dark);
+    font-size: 1.1em;
+    margin-bottom: 0.25em;
 }
 
 .portfolio-item .project-details .project-description p {
-    font-size: 0.9em;
-    color: var(--color-neutral-500);
+    font-size: 0.825em;
+    line-height: 1.4;
+    color: var(--color-neutral-200);
     margin-bottom: 0.5em;
 }
 
 .portfolio-item .project-details a {
-    font-size: 0.9em;
-    color: var(--color-secondary-dark);
+    font-size: 0.825em;
+    border: none;
+}
+
+/* Featured portfolio items span full grid. */
+.portfolio-item.featured {
+    grid-column: 1 / -1;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.portfolio-item.featured img {
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio-item.featured .project-details-wrapper {
+    position: absolute;
+    bottom: 4em;
+    right: 4em;
+    max-width: 400px;
+    box-shadow: none;
+    text-align: center;
+}
+
+.portfolio-item img.project-logo {
+    width: 75%;
+    box-shadow: none;
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#turnip .project-details-wrapper {
+    right: auto;
+    left: 4em;
+}
+
+.portfolio-item.featured .project-details {
+    background: var(--color-neutral-600);
+    text-align: left;
 }
 
 
