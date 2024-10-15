@@ -2,6 +2,7 @@
 title: 
 heading: empty
 order: 1
+class: darkPanel
 ---
 
  <div class="header">

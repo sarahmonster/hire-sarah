@@ -215,7 +215,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: var(--color-cyan-400);
+    color: var(--color-cyan-600);
     text-decoration: none;
     padding-bottom: 0.125em;
     border-bottom: 2px solid;
@@ -223,7 +223,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-pink-500);
+    color: var(--color-cyan-700);
 }
 
 strong {
@@ -363,35 +363,35 @@ nav a:hover {
 }
 
 /* Dark panels */
-.panel:nth-of-type(odd) {
+.darkPanel {
     background: var(--color-grey-900);
     color: var(--color-white);
 }
 
-.panel:nth-of-type(odd) .panel-title {
+.darkPanel .panel-title {
     color: var(--color-grey-900);
     background: var(--color-pink-400);
 }
 
-.panel:nth-of-type(odd) .subtitle {
+.darkPanel .subtitle {
     color: var(--color-pink-400);
 }
 
-.panel:nth-of-type(odd) a {
+.darkPanel a {
     color: var(--color-cyan-400);
 }
 
-.panel:nth-of-type(odd) a:hover {
+.darkPanel a:hover {
     color: var(--color-pink-400);
 }
 
 /* Light panels */
-.panel:nth-of-type(even) {
+.lightPanel {
     background: var(--color-white);
     color: var(--color-grey-900);
 }
 
-.panel:nth-of-type(even) .subtitle {
+.lightPanel .subtitle {
     color: var(--color-pink-600);
 }
 
@@ -690,112 +690,152 @@ nav a:hover {
    Colour-coding
    ========================================================================== */
 .colorScheme-purple .project-details {
-    border-top-color: var(--color-purple-300);
+    border-top-color: var(--color-purple-400);
 }
 
-.panel .colorScheme-purple .subtitle, 
-.panel .colorScheme-purple a {
-    color: var(--color-purple-200);
-}
-
-.panel .colorScheme-purple a:hover {
+.colorScheme-purple .subtitle, 
+.colorScheme-purple a {
     color: var(--color-purple-300);
 }
 
+.colorScheme-purple a:hover {
+    color: var(--color-purple-400);
+}
+
+.colorScheme-purple .panel-title {
+    background: var(--color-purple-300);
+}
+
+.colorScheme-purple .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-purple-400);
+}
+
 .colorScheme-blue .project-details {
-    border-top-color: var(--color-blue-300);
+    border-top-color: var(--color-blue-400);
 }
 
-.panel .colorScheme-blue .subtitle,
-.panel .colorScheme-blue a {
-    color: var(--color-blue-200);
-}
-
-.panel .colorScheme-blue a:hover {
+.colorScheme-blue .subtitle,
+.colorScheme-blue a {
     color: var(--color-blue-300);
 }
 
+.colorScheme-blue a:hover {
+    color: var(--color-blue-400);
+}
+
+.colorScheme-blue .panel-title {
+    background: var(--color-blue-300);
+}
+
+.colorScheme-blue .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-blue-400);
+}
+
 .colorScheme-cyan .project-details {
-    border-top-color: var(--color-cyan-300);
+    border-top-color: var(--color-cyan-400);
 }
 
-.panel .colorScheme-cyan .subtitle,
-.panel .colorScheme-cyan a {
-    color: var(--color-cyan-200);
-}
-
-.panel .colorScheme-cyan a:hover {
+.colorScheme-cyan .subtitle,
+.colorScheme-cyan a {
     color: var(--color-cyan-300);
 }
 
+.colorScheme-cyan a:hover {
+    color: var(--color-cyan-400);
+}
+
+.colorScheme-cyan .panel-title {
+    background: var(--color-cyan-300);
+}
+
+.colorScheme-cyan .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-cyan-400);
+}
+
 .colorScheme-green .project-details {
-    border-top-color: var(--color-green-300);
+    border-top-color: var(--color-green-400);
 }
 
-.panel .colorScheme-green .subtitle,
-.panel .colorScheme-green a {
-    color: var(--color-green-200);
-}
-
-.panel .colorScheme-green a:hover {
+.colorScheme-green .subtitle,
+.colorScheme-green a {
     color: var(--color-green-300);
 }
 
+.colorScheme-green a:hover {
+    color: var(--color-green-400);
+}
+
+.colorScheme-green .panel-title {
+    background: var(--color-green-300);
+}
+
+.colorScheme-green .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-green-400);
+}
+
 .colorScheme-yellow .project-details {
-    border-top-color: var(--color-yellow-300);
+    border-top-color: var(--color-yellow-400);
 }
 
-.panel .colorScheme-yellow .subtitle,
-.panel .colorScheme-yellow a {
-    color: var(--color-yellow-200);
-}
-
-.panel .colorScheme-yellow a:hover {
+.colorScheme-yellow .subtitle,
+.colorScheme-yellow a {
     color: var(--color-yellow-300);
 }
 
+.colorScheme-yellow a:hover {
+    color: var(--color-yellow-400);
+}
+
+.colorScheme-yellow .panel-title {
+    background: var(--color-yellow-300);
+}
+
+.colorScheme-yellow .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-yellow-400);
+}
+
 .colorScheme-red .project-details {
-    border-top-color: var(--color-red-300);
+    border-top-color: var(--color-red-400);
 }
 
-.panel .colorScheme-red .subtitle,
-.panel .colorScheme-red a {
-    color: var(--color-red-200);
-}
-
-.panel .colorScheme-red a:hover {
+.colorScheme-red .subtitle,
+.colorScheme-red a {
     color: var(--color-red-300);
+}
+
+.colorScheme-red a:hover {
+    color: var(--color-red-400);
+}
+
+.colorScheme-red .panel-title {
+    background: var(--color-red-300);
+}
+
+.colorScheme-red .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-red-400);
 }
 
 .colorScheme-pink .project-details {
     border-top-color: var(--color-pink-400);
 }
 
-.panel .colorScheme-pink .subtitle,
-.panel .colorScheme-pink a {
+.colorScheme-pink .subtitle,
+.colorScheme-pink a {
     color: var(--color-pink-200);
 }
 
-.panel .colorScheme-pink a:hover {
+.colorScheme-pink a:hover {
     color: var(--color-pink-300);
 }
 
+.colorScheme-pink .panel-title {
+    background: var(--color-pink-300);
+}
 
+.colorScheme-pink .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-pink-400);
+}
 
-/* 
-@media screen and (min-width: 640px) {
-    .portfolio-item:nth-of-type(odd) {
-        grid-template-columns: 320px auto;
-    }
-
-    .portfolio-item:nth-of-type(even) {
-        grid-template-columns: auto 320px;
-    }
-
-    .portfolio-item:nth-of-type(even) .project-details {
-        order: -1;
-    }
-} */
 
 /* ==========================================================================
    CV panel
@@ -1031,14 +1071,6 @@ figcaption {
 
 .portfolio-panel-text .dates {
   color: var(--color-grey-400);
-}
-
-.portfolio-panel-text a {
-  color: var(--color-cyan-400);
-}
-
-.portfolio-panel-text a:hover {
-  color: var(--color-pink-400);
 }
 
 .portfolio-panel-gallery {
