@@ -608,16 +608,35 @@ nav a:hover {
     margin-bottom: 0;
 }
 
-.portfolio-item {
+
+.portfolio-item-link {
+    border: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.portfolio-item-link:hover .text-link-arrow {
+    margin-left: 4px;
+}
+
+.portfolio-item-wrapper {
     grid-gap: 2em;
     align-items: center;
     border-radius: 24px;
     overflow: hidden;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     background: var(--color-black);
+    transition: all 200ms ease-out;
 }
 
-.portfolio-item img {
+.portfolio-item-link:hover .portfolio-item-wrapper {
+    transform: scale(1.0125);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.2) 0px 5px 10px,
+}
+
+.project-thumbnail {
     height: auto;
     width: 100%;
     margin: 0;
@@ -639,11 +658,6 @@ nav a:hover {
     line-height: 1.4;
     color: var(--color-grey-300);
     margin-bottom: 0.5em;
-}
-
-.portfolio-item .project-details a {
-    font-size: 0.825em;
-    border: none;
 }
 
 /* Featured portfolio items span full grid. */
@@ -687,6 +701,7 @@ nav a:hover {
 }
 
 
+
 /* ==========================================================================
    Colour-coding
    ========================================================================== */
@@ -699,7 +714,8 @@ nav a:hover {
     color: var(--color-purple-300);
 }
 
-.colorScheme-purple a:hover {
+.colorScheme-purple a:hover,
+.colorScheme-purple .portfolio-item-link:hover .subtitle  {
     color: var(--color-purple-400);
 }
 
@@ -720,7 +736,8 @@ nav a:hover {
     color: var(--color-blue-300);
 }
 
-.colorScheme-blue a:hover {
+.colorScheme-blue a:hover,
+.colorScheme-blue .portfolio-item-link:hover .subtitle {
     color: var(--color-blue-400);
 }
 
@@ -741,7 +758,8 @@ nav a:hover {
     color: var(--color-cyan-300);
 }
 
-.colorScheme-cyan a:hover {
+.colorScheme-cyan a:hover,
+.colorScheme-cyan .portfolio-item-link:hover .subtitle {
     color: var(--color-cyan-400);
 }
 
@@ -762,7 +780,8 @@ nav a:hover {
     color: var(--color-green-300);
 }
 
-.colorScheme-green a:hover {
+.colorScheme-green a:hover,
+.colorScheme-green .portfolio-item-link:hover .subtitle {
     color: var(--color-green-400);
 }
 
@@ -783,7 +802,8 @@ nav a:hover {
     color: var(--color-yellow-300);
 }
 
-.colorScheme-yellow a:hover {
+.colorScheme-yellow a:hover,
+.colorScheme-yellow .portfolio-item-link:hover .subtitle {
     color: var(--color-yellow-400);
 }
 
@@ -804,7 +824,8 @@ nav a:hover {
     color: var(--color-red-300);
 }
 
-.colorScheme-red a:hover {
+.colorScheme-red a:hover,
+.colorScheme-red .portfolio-item-link:hover .subtitle {
     color: var(--color-red-400);
 }
 
@@ -825,7 +846,8 @@ nav a:hover {
     color: var(--color-pink-200);
 }
 
-.colorScheme-pink a:hover {
+.colorScheme-pink a:hover,
+.colorScheme-pink .portfolio-item-link:hover .subtitle {
     color: var(--color-pink-300);
 }
 
@@ -868,11 +890,6 @@ nav a:hover {
 
 .portfolio-header .portfolio-panel-next-panel-link  {
   margin-top: 20px;
-}
-
-.portfolio-headerss .panel-title {
-  color: var(--color-cyan-600) !important;
-  background-color: var(--color-grey-900) !important;
 }
 
 .portfolio-header-image {

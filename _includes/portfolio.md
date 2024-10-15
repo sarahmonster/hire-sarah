@@ -14,11 +14,13 @@
 {% endif %}
   
 {% capture extraClasses %}
-colorScheme-{{project.colorScheme}} {{featured}}
+  colorScheme-{{project.colorScheme}} {{featured}}
 {% endcapture %}
 
 
   <article class="portfolio-item {{ extraClasses }}" id="{{ project.title | downcase | replace: " ", "-" }}" >
+  <a class="portfolio-item-link" href="{{ project.url }}">
+  <div class="portfolio-item-wrapper">
    <img src="{{ thumbnailURL }}" class="project-thumbnail">
 
    <div class="project-details-wrapper">
@@ -27,14 +29,15 @@ colorScheme-{{project.colorScheme}} {{featured}}
     {% endif %}
 
     <div class="project-details">
-      <h3 class="subtitle">{{ project.title }}</h3>
+      <h3 class="subtitle">{{ project.title }} <span class="text-link-arrow">→</span></h3>
 
       <div class="project-description">
-      {{ project.summary | markdownify }}
+        {{ project.summary | markdownify }}
       </div>
 
-      <a href="{{ project.url }}">View project →</a>
     </div>
    </div>
+   </div>
+   </a>
   </article>
 {% endfor %}
