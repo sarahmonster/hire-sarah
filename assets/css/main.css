@@ -605,6 +605,7 @@ nav a:hover {
 #portfolio .panel-title {
     grid-column: 1 / -1;
     width: fit-content;
+    margin-bottom: 0;
 }
 
 .portfolio-item {

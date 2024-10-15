@@ -2,7 +2,7 @@
 id: pique
 title: Pique
 order: 5
-thumbnail: "/assets/img/pique/thumbnail.jpg"
+thumbnail: "/assets/img/pique/pique-thumbnail.jpg"
 background: "/assets/img/pique/background.png"
 tags: [competitive analysis, wireframing, prototyping, visual design, front-end development, usability testing, documentation]
 summary: A WordPress.com theme designed for small businesses, now in use on nearly one million WordPress sites.
@@ -73,7 +73,7 @@ colorScheme: cyan
 
   Pique is now in use on over 900,000 WordPress.com user sites, as well as over 4,000 self-hosted WordPress sites, where it has a 4.8 out of 5 user rating.
 
-  The innovative patterns established in Pique, specifically for building a one-page site with multiple panels, were later reused by a number of different themes that followed, including the default Twenty Seventeen theme for that year. The theme has been used in a number of custom high-profile client sites for its flexibility."
+  The innovative patterns established in Pique, specifically for building a one-page site with multiple panels, were later reused by a number of different themes that followed, including the default Twenty Seventeen theme for that year. The theme has been used in a number of custom high-profile client sites (like [Jia Tolentino](https://wordpress.com/discover-wordpress/2018/05/31/homepages-with-panels/)) for its flexibility."
   image="/assets/img/pique/outcomes.png"
   alt="Document showing steps in user research project, plus stats (25 researchers, 7 days, 17 participants.)"
 %}
