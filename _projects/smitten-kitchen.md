@@ -1,6 +1,6 @@
 ---
 id: smitten-kitchen
-title: Smitten Kitchen website redesign
+title: Smitten Kitchen
 order: 6
 thumbnail: "/assets/img/smitten-kitchen/smitten-kitchen-thumbnail.jpg"
 background: "/assets/img/smitten-kitchen/background.png"

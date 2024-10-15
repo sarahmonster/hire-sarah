@@ -1,6 +1,6 @@
 ---
 id: site-building-study
-title: WordPress site building study
+title: WordPress research study
 order: 2
 image: "/assets/img/site-building-study/site-builder-journey-map.png"
 thumbnail: "/assets/img/site-building-study/site-building-study-thumbnail.png"

@@ -338,10 +338,16 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     min-height: 95vh;
-    padding: 4em 2em;
+    padding: 2em 1em;
 
     &:last-of-type {
         border-bottom: none;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .panel {
+        padding: 4em 2em;
     }
 }
 
@@ -591,16 +597,21 @@ nav a:hover {
    ========================================================================== */
 
 #portfolio .panel-contents {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: -2em;
+    margin-right: -2em;
     display: grid;
     grid-gap: 2em;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    @media screen and (min-width: 640px) {
-       
-    }
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
+
+ @media screen and (min-width: 640px) {
+    #portfolio .panel-contents {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    }
+ }
 
 #portfolio .panel-title {
     grid-column: 1 / -1;
@@ -668,26 +679,46 @@ nav a:hover {
     position: relative;
 }
 
-.portfolio-item.featured img {
+
+.portfolio-item.featured .project-thumbnail {
     height: 100%;
     width: 100%;
 }
 
-.portfolio-item.featured .project-details-wrapper {
-    position: absolute;
-    bottom: 4em;
-    right: 4em;
-    max-width: 400px;
-    box-shadow: none;
-    text-align: center;
+.portfolio-item .project-logo {
+    display: none;
 }
 
-.portfolio-item img.project-logo {
-    width: 75%;
-    box-shadow: none;
-    margin: 1em;
-    margin-left: auto;
-    margin-right: auto;
+.portfolio-item.featured .project-details {
+    background: var(--color-black);
+    text-align: left;
+}
+
+@media screen and (min-width: 736px) {
+    .portfolio-item.featured .project-details-wrapper {
+        position: absolute;
+        bottom: 4em;
+        right: 4em;
+        max-width: 400px;
+        box-shadow: none;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .portfolio-item .project-logo {
+        display: block;
+        width: 75%;
+        box-shadow: none;
+        margin: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Turnip entry */
+#turnip {
+    grid-row: 3;
 }
 
 #turnip .project-details-wrapper {
@@ -695,9 +726,10 @@ nav a:hover {
     left: 4em;
 }
 
-.portfolio-item.featured .project-details {
-    background: var(--color-black);
-    text-align: left;
+@media screen and (min-width: 736px) {
+    #turnip {
+        grid-row: 4;
+    }
 }
 
 
