@@ -10,6 +10,7 @@ site: https://getmicdrop.com
 public: true
 featured: true
 logo: "/assets/img/mic-drop-logo.svg"
+colorScheme: red
 ---
 {% include portfolio-panel.md
   metadata="Introduction"

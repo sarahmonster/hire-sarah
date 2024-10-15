@@ -11,8 +11,6 @@
    ========================================================================== */
 
 :root {
-    --color-white: #fff;
-    --color-black: #212127;
     --color-highlight: #e068de;
     --color-alt: #68dce0;
 
@@ -22,6 +20,96 @@
     --color-neutral-400: #57575B;
     --color-neutral-500: #3A3A3F;
     --color-neutral-600: #212127;
+
+    --color-white: #fff;
+    --color-grey-50: hsl(204, 19%, 95%);
+    --color-grey-100: hsl(210, 17%, 91%);
+    --color-grey-200: hsl(213, 15%, 86%);
+    --color-grey-300: hsl(208, 15%, 81%);
+    --color-grey-400: hsl(210, 15%, 66%);
+    --color-grey-500: hsl(208, 12%, 52%);
+    --color-grey-600: hsl(210, 14%, 36%);
+    --color-grey-700: hsl(208, 14%, 21%);
+    --color-grey-800: hsl(213, 14%, 15%);
+    --color-grey-900: hsl(210, 15%, 11%);
+    --color-black: hsl(200, 11%, 5%);
+
+    --color-blue-50: hsl(202, 66%, 94%);
+    --color-blue-100: hsl(204, 47%, 87%);
+    --color-blue-200: hsl(207, 40%, 77%);
+    --color-blue-300: hsl(208, 37%, 66%);
+    --color-blue-400: hsl(209, 37%, 54%);
+    --color-blue-500: hsl(213, 50%, 39%);
+    --color-blue-600: hsl(215, 55%, 29%);
+    --color-blue-700: hsl(216, 59%, 22%);
+    --color-blue-800: hsl(218, 65%, 16%);
+    --color-blue-900: hsl(219, 76%, 8%);
+
+    --color-cyan-50: hsl(183, 52.6%, 92.5%);
+    --color-cyan-100: hsl(184.3, 53.8%, 84.7%);
+    --color-cyan-200: hsl(184.5, 54.5%, 75.9%);
+    --color-cyan-300: hsl(183.8, 53.9%, 65.1%);
+    --color-cyan-400: hsl(184.1, 54.5%, 52.5%);
+    --color-cyan-500: hsl(184, 100%, 35.3%);
+    --color-cyan-600: hsl(184.1, 100%, 31.8%);
+    --color-cyan-700: hsl(183.8, 100%, 27.8%);
+    --color-cyan-800: hsl(184.1, 100%, 23.1%);
+    --color-cyan-900: hsl(183.6, 100%, 16.5%);
+
+    --color-green-50: hsl(99, 32%, 94%);
+    --color-green-100: hsl(98, 42%, 85%);
+    --color-green-200: hsl(99, 36%, 73%);
+    --color-green-300: hsl(100, 32%, 62%);
+    --color-green-400: hsl(101, 31%, 48%);
+    --color-green-500: hsl(104, 41%, 37%);
+    --color-green-600: hsl(106, 57%, 27%);
+    --color-green-700: hsl(110, 60%, 18%);
+    --color-green-800: hsl(112, 54%, 13%);
+    --color-green-900: hsl(116, 84%, 6%);
+
+    --color-pink-50: hsl(328.2, 73.9%, 95.5%);
+    --color-pink-100: hsl(328.3, 75%, 90.6%);
+    --color-pink-200: hsl(327.9, 74.4%, 84.7%);
+    --color-pink-300: hsl(327.9, 75%, 78%);
+    --color-pink-400: hsl(327.7, 75.8%, 69.2%);
+    --color-pink-500: hsl(327.9, 75.7%, 54.9%);
+    --color-pink-600: hsl(328.1, 62.7%, 49.4%);
+    --color-pink-700: hsl(327.8, 62.7%, 43.1%);
+    --color-pink-800: hsl(327.9, 62.6%, 35.7%);
+    --color-pink-900: hsl(327.8, 63.1%, 25.5%);
+
+    --color-purple-50: hsl(288, 33%, 94%);
+    --color-purple-100: hsl(286, 23%, 86%);
+    --color-purple-200: hsl(281, 23%, 76%);
+    --color-purple-300: hsl(283, 25%, 65%);
+    --color-purple-400: hsl(281, 28%, 52%);
+    --color-purple-500: hsl(281, 33%, 42%);
+    --color-purple-600: hsl(278, 36%, 33%);
+    --color-purple-700: hsl(275, 36%, 25%);
+    --color-purple-800: hsl(274, 42%, 16%);
+    --color-purple-900: hsl(271, 81%, 6%);
+
+    --color-red-50: hsl(0, 67%, 96%);
+    --color-red-100: hsl(0, 69%, 91%);
+    --color-red-200: hsl(0, 70%, 61%);
+    --color-red-300: hsl(0, 66%, 53%);
+    --color-red-400: hsl(0, 77%, 45%);
+    --color-red-500: hsl(0, 86%, 38%);
+    --color-red-600: hsl(0, 90%, 32%);
+    --color-red-700: hsl(0, 94%, 26%);
+    --color-red-800: hsl(0, 96%, 22%);
+    --color-red-900: hsl(0, 96%, 14%);
+
+    --color-yellow-50: hsl(46, 83.3%, 92.9%);
+    --color-yellow-100: hsl(45.7, 86.3%, 85.7%);
+    --color-yellow-200: hsl(45.9, 86%, 77.6%);
+    --color-yellow-300: hsl(45.8, 87.4%, 68.8%);
+    --color-yellow-400: hsl(46, 86.8%, 58.4%);
+    --color-yellow-500: hsl(45.9, 100%, 46.7%);
+    --color-yellow-600: hsl(45.8, 100%, 42.2%);
+    --color-yellow-700: hsl(45.7, 100%, 37.1%);
+    --color-yellow-800: hsl(45.9, 100%, 30.8%);
+    --color-yellow-900: hsl(45.7, 100%, 22.2%);
 
     --color-primary-light: #fcacdb;
     --color-primary: #ef61aa;
@@ -543,7 +631,7 @@ nav a:hover {
     border-radius: 24px;
     overflow: hidden;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    background: var(--color-neutral-600);
+    background: var(--color-black);
 }
 
 .portfolio-item img {
@@ -616,6 +704,99 @@ nav a:hover {
 }
 
 
+/* ==========================================================================
+   Colour-coding
+   ========================================================================== */
+.colorScheme-purple .project-details {
+    border-top-color: var(--color-purple-300);
+}
+
+.panel .colorScheme-purple .subtitle, 
+.panel .colorScheme-purple a {
+    color: var(--color-purple-200);
+}
+
+.panel .colorScheme-purple a:hover {
+    color: var(--color-purple-300);
+}
+
+.colorScheme-blue .project-details {
+    border-top-color: var(--color-blue-300);
+}
+
+.panel .colorScheme-blue .subtitle,
+.panel .colorScheme-blue a {
+    color: var(--color-blue-200);
+}
+
+.panel .colorScheme-blue a:hover {
+    color: var(--color-blue-300);
+}
+
+.colorScheme-cyan .project-details {
+    border-top-color: var(--color-cyan-300);
+}
+
+.panel .colorScheme-cyan .subtitle,
+.panel .colorScheme-cyan a {
+    color: var(--color-cyan-200);
+}
+
+.panel .colorScheme-cyan a:hover {
+    color: var(--color-cyan-300);
+}
+
+.colorScheme-green .project-details {
+    border-top-color: var(--color-green-300);
+}
+
+.panel .colorScheme-green .subtitle,
+.panel .colorScheme-green a {
+    color: var(--color-green-200);
+}
+
+.panel .colorScheme-green a:hover {
+    color: var(--color-green-300);
+}
+
+.colorScheme-yellow .project-details {
+    border-top-color: var(--color-yellow-300);
+}
+
+.panel .colorScheme-yellow .subtitle,
+.panel .colorScheme-yellow a {
+    color: var(--color-yellow-200);
+}
+
+.panel .colorScheme-yellow a:hover {
+    color: var(--color-yellow-300);
+}
+
+.colorScheme-red .project-details {
+    border-top-color: var(--color-red-300);
+}
+
+.panel .colorScheme-red .subtitle,
+.panel .colorScheme-red a {
+    color: var(--color-red-200);
+}
+
+.panel .colorScheme-red a:hover {
+    color: var(--color-red-300);
+}
+
+.colorScheme-pink .project-details {
+    border-top-color: var(--color-pink-400);
+}
+
+.panel .colorScheme-pink .subtitle,
+.panel .colorScheme-pink a {
+    color: var(--color-pink-200);
+}
+
+.panel .colorScheme-pink a:hover {
+    color: var(--color-pink-300);
+}
 
 
 
@@ -868,10 +1049,6 @@ figcaption {
 
 .portfolio-panel-text .dates {
   color: var(--color-neutral-200);
-}
-
-.portfolio-panel-text:nth-of-type(odd) .subtitle {
-  color: var(--color-primary);
 }
 
 .portfolio-panel-text a {

@@ -8,6 +8,7 @@ tags: [user research, competitive analysis, wireframing, prototyping, visual des
 summary: An experimental project designed to vastly simplify and streamline the WordPress site-building process for small business owners by using technology to automate design decisions.
 demo: https://rivet.vip/
 public: true
+colorScheme: pink
 ---
 {% include portfolio-panel.md
   metadata="Introduction"

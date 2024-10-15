@@ -9,6 +9,7 @@ summary: A WordPress.com theme designed for small businesses, now in use on near
 repo: https://github.com/Automattic/themes/tree/master/pique
 demo: https://piquedemo.wordpress.com/
 public: true
+colorScheme: cyan
 ---
 
 {% include portfolio-panel.md

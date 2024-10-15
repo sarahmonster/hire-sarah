@@ -7,6 +7,7 @@ tags: [user research, user journey mapping, affinity mapping, leadership, commun
 summary: An exploratory user research study, conducted in the open and with community participation, to uncover users' mental models relating to building websites.
 repo: https://gutenbergresearch.wordpress.com/
 public: true
+colorScheme: blue
 ---
 
 {% include portfolio-panel.md

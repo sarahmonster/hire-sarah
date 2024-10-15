@@ -10,6 +10,7 @@ site: https://turniptimer.com
 public: true
 featured: true
 logo: "/assets/img/turnip-logo.svg"
+colorScheme: green
 ---
 {% include portfolio-panel.md
   metadata="Introduction"

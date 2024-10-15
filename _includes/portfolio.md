@@ -8,10 +8,15 @@
   {% endif %}
 
 {% if project.featured %}
-	{% assign extraClasses = "featured" %}
+	{% assign featured = "featured" %}
 {% else %}
-	{% assign extraClasses = "single" %}
+	{% assign featured = "" %}
 {% endif %}
+  
+{% capture extraClasses %}
+colorScheme-{{project.colorScheme}} {{featured}}
+{% endcapture %}
+
 
   <article class="portfolio-item {{ extraClasses }}" id="{{ project.title | downcase | replace: " ", "-" }}" >
    <img src="{{ thumbnailURL }}" class="project-thumbnail">
