@@ -11,16 +11,6 @@
    ========================================================================== */
 
 :root {
-    --color-highlight: #e068de;
-    --color-alt: #68dce0;
-
-    --color-neutral-100: #fff;
-    --color-neutral-200: #B4B4B5;
-    --color-neutral-300: #808084;
-    --color-neutral-400: #57575B;
-    --color-neutral-500: #3A3A3F;
-    --color-neutral-600: #212127;
-
     --color-white: #fff;
     --color-grey-50: hsl(204, 19%, 95%);
     --color-grey-100: hsl(210, 17%, 91%);
@@ -110,14 +100,6 @@
     --color-yellow-700: hsl(45.7, 100%, 37.1%);
     --color-yellow-800: hsl(45.9, 100%, 30.8%);
     --color-yellow-900: hsl(45.7, 100%, 22.2%);
-
-    --color-primary-light: #fcacdb;
-    --color-primary: #ef61aa;
-    --color-primary-dark: #ce3a84;
-
-    --color-secondary-light: #acf9f9;
-    --color-secondary: #6cdcef;
-    --color-secondary-dark: #008296;
 }
 
 html {
@@ -228,12 +210,12 @@ img {
 
 h1, h2, h3 {
     line-height: 1.2;
-    color: var(--color-neutral-300);
+    color: var(--color-grey-500);
     margin: 0 0 1em;
 }
 
 a {
-    color: var(--color-secondary-dark);
+    color: var(--color-cyan-400);
     text-decoration: none;
     padding-bottom: 0.125em;
     border-bottom: 2px solid;
@@ -241,7 +223,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-primary-dark);
+    color: var(--color-pink-500);
 }
 
 strong {
@@ -256,7 +238,7 @@ p, img {
 
 blockquote {
     margin: 0 0 2em;
-    color: var(--color-neutral-400);
+    color: var(--color-grey-600);
     font-size: 1.2em;
     position: relative;
     font-style: normal;
@@ -265,7 +247,7 @@ blockquote {
 blockquote:before {
     content: "“";
     display: block;
-    color: var(--color-neutral-200);
+    color: var(--color-grey-400);
     font-size: 4em;
     position: absolute;
     top: -0.025em;
@@ -299,7 +281,7 @@ blockquote cite {
    Sticky navigation
    ========================================================================== */
 nav {
-  background: var(--color-neutral-500);
+  background: var(--color-grey-700);
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -318,24 +300,24 @@ nav ul {
 nav a {
   display: inline-block;
   padding: 0.5rem 2rem;
-  color: var(--color-neutral-100);
+  color: var(--color-white);
   text-decoration: none;
   border-bottom: 0;
   font-size: 0.9em;
 }
 
 nav a:hover {
-    color: var(--color-neutral-100);
-    background: var(--color-primary-dark);
+    color: var(--color-white);
+    background: var(--color-pink-600);
 }
 
 .current {
-  background: var(--color-neutral-400);
+  background: var(--color-grey-600);
 }
 
 .current:hover {
-  color: var(--color-neutral-100);
-  background: var(--color-primary-dark);
+  color: var(--color-white);
+  background: var(--color-pink-600);
 }
 
 @media screen and (max-width: 640px) {
@@ -364,8 +346,8 @@ nav a:hover {
 }
 
 .panel-title {
-    color: var(--color-primary);
-    background: var(--color-neutral-600);
+    color: var(--color-pink-400);
+    background: var(--color-grey-900);
     display: inline-block;
     font-weight: 600;
     padding: 0.25em;
@@ -382,35 +364,35 @@ nav a:hover {
 
 /* Dark panels */
 .panel:nth-of-type(odd) {
-    background: var(--color-neutral-600);
-    color: var(--color-neutral-100);
+    background: var(--color-grey-900);
+    color: var(--color-white);
 }
 
 .panel:nth-of-type(odd) .panel-title {
-    color: var(--color-neutral-600);
-    background: var(--color-primary);
+    color: var(--color-grey-900);
+    background: var(--color-pink-400);
 }
 
 .panel:nth-of-type(odd) .subtitle {
-    color: var(--color-primary);
+    color: var(--color-pink-400);
 }
 
 .panel:nth-of-type(odd) a {
-    color: var(--color-secondary);
+    color: var(--color-cyan-400);
 }
 
 .panel:nth-of-type(odd) a:hover {
-    color: var(--color-primary);
+    color: var(--color-pink-400);
 }
 
 /* Light panels */
 .panel:nth-of-type(even) {
-    background: var(--color-neutral-100);
-    color: var(--color-neutral-600);
+    background: var(--color-white);
+    color: var(--color-grey-900);
 }
 
 .panel:nth-of-type(even) .subtitle {
-    color: var(--color-primary-dark);
+    color: var(--color-pink-600);
 }
 
 .panel-contents {
@@ -489,14 +471,14 @@ nav a:hover {
 .page-title {
     font-size: 4em;
     font-weight: 800;
-    color: var(--color-neutral-100);
+    color: var(--color-white);
     line-height: 0.65;
     margin: 0 0 .25em;
     letter-spacing: -0.025em;
 }
 
 .page-title strong {
-    color: var(--color-secondary);
+    color: var(--color-cyan-300);
     background: none;
     font-weight: inherit;
 }
@@ -506,8 +488,8 @@ nav a:hover {
 }
 
 .page-subtitle .job-name {
-    color: var(--color-primary);
-    background: var(--color-neutral-100);
+    color: var(--color-pink-500);
+    background: var(--color-white);
     display: inline-block;
     font-weight: 600;
     padding: 0.25em;
@@ -529,8 +511,8 @@ nav a:hover {
 }
 
 .page-subtitle .job-name:first-of-type {
-    color: var(--color-neutral-100);
-    background: var(--color-primary);
+    color: var(--color-white);
+    background: var(--color-pink-500);
 }
 
 @media screen and (max-width: 640px) {
@@ -642,7 +624,7 @@ nav a:hover {
 }
 
 .portfolio-item .project-details {
-    border-top: 3px solid var(--color-primary-light);
+    border-top: 3px solid var(--color-grey-300);
     padding: 24px;
 }
 
@@ -654,7 +636,7 @@ nav a:hover {
 .portfolio-item .project-details .project-description p {
     font-size: 0.825em;
     line-height: 1.4;
-    color: var(--color-neutral-200);
+    color: var(--color-grey-300);
     margin-bottom: 0.5em;
 }
 
@@ -699,7 +681,7 @@ nav a:hover {
 }
 
 .portfolio-item.featured .project-details {
-    background: var(--color-neutral-600);
+    background: var(--color-black);
     text-align: left;
 }
 
@@ -819,12 +801,12 @@ nav a:hover {
    CV panel
    ========================================================================== */
 #cv .subtitle {
-    color: var(--color-neutral-400);
+    color: var(--color-grey-600);
 }
 
 #cv .subtitle strong {
     background: transparent;
-    color: var(--color-primary-dark);
+    color: var(--color-pink-600);
 }
 
 .dates {
@@ -848,8 +830,8 @@ nav a:hover {
 }
 
 .portfolio-headerss .panel-title {
-  color: var(--color-secondary-dark) !important;
-  background-color: var(--color-neutral-600) !important;
+  color: var(--color-cyan-600) !important;
+  background-color: var(--color-grey-900) !important;
 }
 
 .portfolio-header-image {
@@ -867,7 +849,7 @@ nav a:hover {
 }
 
 .portfolio-header .panel-contents {
-  background: var(--color-neutral-600);
+  background: var(--color-grey-900);
   padding: 0.8rem 1.6rem;
   position: relative;
   z-index: 2;
@@ -891,8 +873,8 @@ nav a:hover {
 
   .tag {
       display: inline-block;
-      background: var(--color-neutral-500);
-      color: var(--color-neutral-100);
+      background: var(--color-grey-700);
+      color: var(--color-white);
       padding: 0.25em 0.5em;
       text-transform: uppercase;
       letter-spacing: 0.125em;
@@ -1002,11 +984,11 @@ figcaption {
   width: 48px;
   stroke-width: 1px;
   stroke: var(--color-white);
-  fill: var(--color-neutral-600);
+  fill: var(--color-grey-900);
 }
 
 .portfolio-panel-next-panel-link:hover svg {
-  fill: var(--color-primary-dark);
+  fill: var(--color-pink-600);
 }
 
 .portfolio-panel-gallery {
@@ -1040,23 +1022,23 @@ figcaption {
 
 .portfolio-panel-text {
   background: var(--color-black);
-  color: var(--color-neutral-100);
+  color: var(--color-white);
 }
 
 .portfolio-panel-text blockquote {
-  color: var(--color-neutral-200);
+  color: var(--color-grey-400);
 }
 
 .portfolio-panel-text .dates {
-  color: var(--color-neutral-200);
+  color: var(--color-grey-400);
 }
 
 .portfolio-panel-text a {
-  color: var(--color-secondary);
+  color: var(--color-cyan-400);
 }
 
 .portfolio-panel-text a:hover {
-  color: var(--color-primary);
+  color: var(--color-pink-400);
 }
 
 .portfolio-panel-gallery {
