@@ -12,24 +12,94 @@
 
 :root {
     --color-white: #fff;
-    --color-black: #212127;
-    --color-highlight: #e068de;
-    --color-alt: #68dce0;
+    --color-grey-50: hsl(204, 19%, 95%);
+    --color-grey-100: hsl(210, 17%, 91%);
+    --color-grey-200: hsl(213, 15%, 86%);
+    --color-grey-300: hsl(208, 15%, 81%);
+    --color-grey-400: hsl(210, 15%, 66%);
+    --color-grey-500: hsl(208, 12%, 52%);
+    --color-grey-600: hsl(210, 14%, 36%);
+    --color-grey-700: hsl(208, 14%, 21%);
+    --color-grey-800: hsl(213, 14%, 15%);
+    --color-grey-900: hsl(210, 15%, 11%);
+    --color-black: hsl(200, 11%, 5%);
 
-    --color-neutral-100: #fff;
-    --color-neutral-200: #B4B4B5;
-    --color-neutral-300: #808084;
-    --color-neutral-400: #57575B;
-    --color-neutral-500: #3A3A3F;
-    --color-neutral-600: #212127;
+    --color-blue-50: hsl(202, 66%, 94%);
+    --color-blue-100: hsl(204, 47%, 87%);
+    --color-blue-200: hsl(207, 40%, 77%);
+    --color-blue-300: hsl(208, 37%, 66%);
+    --color-blue-400: hsl(209, 37%, 54%);
+    --color-blue-500: hsl(213, 50%, 39%);
+    --color-blue-600: hsl(215, 55%, 29%);
+    --color-blue-700: hsl(216, 59%, 22%);
+    --color-blue-800: hsl(218, 65%, 16%);
+    --color-blue-900: hsl(219, 76%, 8%);
 
-    --color-primary-light: #fcacdb;
-    --color-primary: #ef61aa;
-    --color-primary-dark: #ce3a84;
+    --color-cyan-50: hsl(183, 52.6%, 92.5%);
+    --color-cyan-100: hsl(184.3, 53.8%, 84.7%);
+    --color-cyan-200: hsl(184.5, 54.5%, 75.9%);
+    --color-cyan-300: hsl(183.8, 53.9%, 65.1%);
+    --color-cyan-400: hsl(184.1, 54.5%, 52.5%);
+    --color-cyan-500: hsl(184, 100%, 35.3%);
+    --color-cyan-600: hsl(184.1, 100%, 31.8%);
+    --color-cyan-700: hsl(183.8, 100%, 27.8%);
+    --color-cyan-800: hsl(184.1, 100%, 23.1%);
+    --color-cyan-900: hsl(183.6, 100%, 16.5%);
 
-    --color-secondary-light: #acf9f9;
-    --color-secondary: #6cdcef;
-    --color-secondary-dark: #008296;
+    --color-green-50: hsl(99, 32%, 94%);
+    --color-green-100: hsl(98, 42%, 85%);
+    --color-green-200: hsl(99, 36%, 73%);
+    --color-green-300: hsl(100, 32%, 62%);
+    --color-green-400: hsl(101, 31%, 48%);
+    --color-green-500: hsl(104, 41%, 37%);
+    --color-green-600: hsl(106, 57%, 27%);
+    --color-green-700: hsl(110, 60%, 18%);
+    --color-green-800: hsl(112, 54%, 13%);
+    --color-green-900: hsl(116, 84%, 6%);
+
+    --color-pink-50: hsl(328.2, 73.9%, 95.5%);
+    --color-pink-100: hsl(328.3, 75%, 90.6%);
+    --color-pink-200: hsl(327.9, 74.4%, 84.7%);
+    --color-pink-300: hsl(327.9, 75%, 78%);
+    --color-pink-400: hsl(327.7, 75.8%, 69.2%);
+    --color-pink-500: hsl(327.9, 75.7%, 54.9%);
+    --color-pink-600: hsl(328.1, 62.7%, 49.4%);
+    --color-pink-700: hsl(327.8, 62.7%, 43.1%);
+    --color-pink-800: hsl(327.9, 62.6%, 35.7%);
+    --color-pink-900: hsl(327.8, 63.1%, 25.5%);
+
+    --color-purple-50: hsl(288, 33%, 94%);
+    --color-purple-100: hsl(286, 23%, 86%);
+    --color-purple-200: hsl(281, 23%, 76%);
+    --color-purple-300: hsl(283, 25%, 65%);
+    --color-purple-400: hsl(281, 28%, 52%);
+    --color-purple-500: hsl(281, 33%, 42%);
+    --color-purple-600: hsl(278, 36%, 33%);
+    --color-purple-700: hsl(275, 36%, 25%);
+    --color-purple-800: hsl(274, 42%, 16%);
+    --color-purple-900: hsl(271, 81%, 6%);
+
+    --color-red-50: hsl(0, 67%, 96%);
+    --color-red-100: hsl(0, 69%, 91%);
+    --color-red-200: hsl(0, 70%, 61%);
+    --color-red-300: hsl(0, 66%, 53%);
+    --color-red-400: hsl(0, 77%, 45%);
+    --color-red-500: hsl(0, 86%, 38%);
+    --color-red-600: hsl(0, 90%, 32%);
+    --color-red-700: hsl(0, 94%, 26%);
+    --color-red-800: hsl(0, 96%, 22%);
+    --color-red-900: hsl(0, 96%, 14%);
+
+    --color-yellow-50: hsl(46, 83.3%, 92.9%);
+    --color-yellow-100: hsl(45.7, 86.3%, 85.7%);
+    --color-yellow-200: hsl(45.9, 86%, 77.6%);
+    --color-yellow-300: hsl(45.8, 87.4%, 68.8%);
+    --color-yellow-400: hsl(46, 86.8%, 58.4%);
+    --color-yellow-500: hsl(45.9, 100%, 46.7%);
+    --color-yellow-600: hsl(45.8, 100%, 42.2%);
+    --color-yellow-700: hsl(45.7, 100%, 37.1%);
+    --color-yellow-800: hsl(45.9, 100%, 30.8%);
+    --color-yellow-900: hsl(45.7, 100%, 22.2%);
 }
 
 html {
@@ -140,12 +210,12 @@ img {
 
 h1, h2, h3 {
     line-height: 1.2;
-    color: var(--color-neutral-300);
+    color: var(--color-grey-500);
     margin: 0 0 1em;
 }
 
 a {
-    color: var(--color-secondary-dark);
+    color: var(--color-cyan-600);
     text-decoration: none;
     padding-bottom: 0.125em;
     border-bottom: 2px solid;
@@ -153,7 +223,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-primary-dark);
+    color: var(--color-cyan-700);
 }
 
 strong {
@@ -168,7 +238,7 @@ p, img {
 
 blockquote {
     margin: 0 0 2em;
-    color: var(--color-neutral-400);
+    color: var(--color-grey-600);
     font-size: 1.2em;
     position: relative;
     font-style: normal;
@@ -177,7 +247,7 @@ blockquote {
 blockquote:before {
     content: "“";
     display: block;
-    color: var(--color-neutral-200);
+    color: var(--color-grey-400);
     font-size: 4em;
     position: absolute;
     top: -0.025em;
@@ -211,7 +281,7 @@ blockquote cite {
    Sticky navigation
    ========================================================================== */
 nav {
-  background: var(--color-neutral-500);
+  background: var(--color-grey-700);
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -230,24 +300,24 @@ nav ul {
 nav a {
   display: inline-block;
   padding: 0.5rem 2rem;
-  color: var(--color-neutral-100);
+  color: var(--color-white);
   text-decoration: none;
   border-bottom: 0;
   font-size: 0.9em;
 }
 
 nav a:hover {
-    color: var(--color-neutral-100);
-    background: var(--color-primary-dark);
+    color: var(--color-white);
+    background: var(--color-pink-600);
 }
 
 .current {
-  background: var(--color-neutral-400);
+  background: var(--color-grey-600);
 }
 
 .current:hover {
-  color: var(--color-neutral-100);
-  background: var(--color-primary-dark);
+  color: var(--color-white);
+  background: var(--color-pink-600);
 }
 
 @media screen and (max-width: 640px) {
@@ -268,16 +338,22 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     min-height: 95vh;
-    padding: 4em 2em;
+    padding: 2em 1em;
 
     &:last-of-type {
         border-bottom: none;
     }
 }
 
+@media screen and (min-width: 640px) {
+    .panel {
+        padding: 4em 2em;
+    }
+}
+
 .panel-title {
-    color: var(--color-primary);
-    background: var(--color-neutral-600);
+    color: var(--color-pink-400);
+    background: var(--color-grey-900);
     display: inline-block;
     font-weight: 600;
     padding: 0.25em;
@@ -293,36 +369,36 @@ nav a:hover {
 }
 
 /* Dark panels */
-.panel:nth-of-type(odd) {
-    background: var(--color-neutral-600);
-    color: var(--color-neutral-100);
+.darkPanel {
+    background: var(--color-grey-900);
+    color: var(--color-white);
 }
 
-.panel:nth-of-type(odd) .panel-title {
-    color: var(--color-neutral-600);
-    background: var(--color-primary);
+.darkPanel .panel-title {
+    color: var(--color-grey-900);
+    background: var(--color-pink-400);
 }
 
-.panel:nth-of-type(odd) .subtitle {
-    color: var(--color-primary);
+.darkPanel .subtitle {
+    color: var(--color-pink-400);
 }
 
-.panel:nth-of-type(odd) a {
-    color: var(--color-secondary);
+.darkPanel a {
+    color: var(--color-cyan-400);
 }
 
-.panel:nth-of-type(odd) a:hover {
-    color: var(--color-primary);
+.darkPanel a:hover {
+    color: var(--color-pink-400);
 }
 
 /* Light panels */
-.panel:nth-of-type(even) {
-    background: var(--color-neutral-100);
-    color: var(--color-neutral-600);
+.lightPanel {
+    background: var(--color-white);
+    color: var(--color-grey-900);
 }
 
-.panel:nth-of-type(even) .subtitle {
-    color: var(--color-primary-dark);
+.lightPanel .subtitle {
+    color: var(--color-pink-600);
 }
 
 .panel-contents {
@@ -401,14 +477,14 @@ nav a:hover {
 .page-title {
     font-size: 4em;
     font-weight: 800;
-    color: var(--color-neutral-100);
+    color: var(--color-white);
     line-height: 0.65;
     margin: 0 0 .25em;
     letter-spacing: -0.025em;
 }
 
 .page-title strong {
-    color: var(--color-secondary);
+    color: var(--color-cyan-300);
     background: none;
     font-weight: inherit;
 }
@@ -418,8 +494,8 @@ nav a:hover {
 }
 
 .page-subtitle .job-name {
-    color: var(--color-primary);
-    background: var(--color-neutral-100);
+    color: var(--color-pink-500);
+    background: var(--color-white);
     display: inline-block;
     font-weight: 600;
     padding: 0.25em;
@@ -441,8 +517,8 @@ nav a:hover {
 }
 
 .page-subtitle .job-name:first-of-type {
-    color: var(--color-neutral-100);
-    background: var(--color-primary);
+    color: var(--color-white);
+    background: var(--color-pink-500);
 }
 
 @media screen and (max-width: 640px) {
@@ -521,48 +597,311 @@ nav a:hover {
    ========================================================================== */
 
 #portfolio .panel-contents {
-    max-width: 880px;
-}
-
-.portfolio-item {
+    margin-left: -2em;
+    margin-right: -2em;
     display: grid;
     grid-gap: 2em;
-    margin-bottom: 4em;
-    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 
-.portfolio-item img {
-    height: 320px;
-    width: 320px;
+ @media screen and (min-width: 640px) {
+    #portfolio .panel-contents {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    }
+ }
+
+#portfolio .panel-title {
+    grid-column: 1 / -1;
+    width: fit-content;
+    margin-bottom: 0;
+}
+
+
+.portfolio-item-link {
+    border: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.portfolio-item-link:hover .text-link-arrow {
+    margin-left: 4px;
+}
+
+.portfolio-item-wrapper {
+    grid-gap: 2em;
+    align-items: center;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    background: var(--color-black);
+    transition: all 200ms ease-out;
+}
+
+.portfolio-item-link:hover .portfolio-item-wrapper {
+    transform: scale(1.0125);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.2) 0px 5px 10px,
+}
+
+.project-thumbnail {
+    height: auto;
+    width: 100%;
     margin: 0;
-    border-radius: 50%;
     object-fit: cover;
 }
 
-@media screen and (min-width: 640px) {
-    .portfolio-item:nth-of-type(odd) {
-        grid-template-columns: 320px auto;
-    }
+.portfolio-item .project-details {
+    border-top: 3px solid var(--color-grey-300);
+    padding: 24px;
+}
 
-    .portfolio-item:nth-of-type(even) {
-        grid-template-columns: auto 320px;
-    }
+.portfolio-item .project-details .subtitle {
+    font-size: 1.1em;
+    margin-bottom: 0.25em;
+}
 
-    .portfolio-item:nth-of-type(even) .project-details {
-        order: -1;
+.portfolio-item .project-details .project-description p {
+    font-size: 0.825em;
+    line-height: 1.4;
+    color: var(--color-grey-300);
+    margin-bottom: 0.5em;
+}
+
+/* Featured portfolio items span full grid. */
+.portfolio-item.featured {
+    grid-column: 1 / -1;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+
+.portfolio-item.featured .project-thumbnail {
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio-item .project-logo {
+    display: none;
+}
+
+.portfolio-item.featured .project-details {
+    background: var(--color-black);
+    text-align: left;
+}
+
+@media screen and (min-width: 736px) {
+    .portfolio-item.featured .project-details-wrapper {
+        position: absolute;
+        bottom: 4em;
+        right: 4em;
+        max-width: 400px;
+        box-shadow: none;
+        text-align: center;
     }
 }
+
+@media screen and (min-width: 960px) {
+    .portfolio-item .project-logo {
+        display: block;
+        width: 75%;
+        box-shadow: none;
+        margin: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Turnip entry */
+#turnip {
+    grid-row: 3;
+}
+
+#turnip .project-details-wrapper {
+    right: auto;
+    left: 4em;
+}
+
+@media screen and (min-width: 736px) {
+    #turnip {
+        grid-row: 4;
+    }
+}
+
+
+
+/* ==========================================================================
+   Colour-coding
+   ========================================================================== */
+.colorScheme-purple .project-details {
+    border-top-color: var(--color-purple-400);
+}
+
+.colorScheme-purple .subtitle, 
+.colorScheme-purple a {
+    color: var(--color-purple-300);
+}
+
+.colorScheme-purple a:hover,
+.colorScheme-purple .portfolio-item-link:hover .subtitle  {
+    color: var(--color-purple-400);
+}
+
+.colorScheme-purple .panel-title {
+    background: var(--color-purple-300);
+}
+
+.colorScheme-purple .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-purple-400);
+}
+
+.colorScheme-blue .project-details {
+    border-top-color: var(--color-blue-400);
+}
+
+.colorScheme-blue .subtitle,
+.colorScheme-blue a {
+    color: var(--color-blue-300);
+}
+
+.colorScheme-blue a:hover,
+.colorScheme-blue .portfolio-item-link:hover .subtitle {
+    color: var(--color-blue-400);
+}
+
+.colorScheme-blue .panel-title {
+    background: var(--color-blue-300);
+}
+
+.colorScheme-blue .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-blue-400);
+}
+
+.colorScheme-cyan .project-details {
+    border-top-color: var(--color-cyan-400);
+}
+
+.colorScheme-cyan .subtitle,
+.colorScheme-cyan a {
+    color: var(--color-cyan-300);
+}
+
+.colorScheme-cyan a:hover,
+.colorScheme-cyan .portfolio-item-link:hover .subtitle {
+    color: var(--color-cyan-400);
+}
+
+.colorScheme-cyan .panel-title {
+    background: var(--color-cyan-300);
+}
+
+.colorScheme-cyan .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-cyan-400);
+}
+
+.colorScheme-green .project-details {
+    border-top-color: var(--color-green-400);
+}
+
+.colorScheme-green .subtitle,
+.colorScheme-green a {
+    color: var(--color-green-300);
+}
+
+.colorScheme-green a:hover,
+.colorScheme-green .portfolio-item-link:hover .subtitle {
+    color: var(--color-green-400);
+}
+
+.colorScheme-green .panel-title {
+    background: var(--color-green-300);
+}
+
+.colorScheme-green .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-green-400);
+}
+
+.colorScheme-yellow .project-details {
+    border-top-color: var(--color-yellow-400);
+}
+
+.colorScheme-yellow .subtitle,
+.colorScheme-yellow a {
+    color: var(--color-yellow-300);
+}
+
+.colorScheme-yellow a:hover,
+.colorScheme-yellow .portfolio-item-link:hover .subtitle {
+    color: var(--color-yellow-400);
+}
+
+.colorScheme-yellow .panel-title {
+    background: var(--color-yellow-300);
+}
+
+.colorScheme-yellow .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-yellow-400);
+}
+
+.colorScheme-red .project-details {
+    border-top-color: var(--color-red-400);
+}
+
+.colorScheme-red .subtitle,
+.colorScheme-red a {
+    color: var(--color-red-300);
+}
+
+.colorScheme-red a:hover,
+.colorScheme-red .portfolio-item-link:hover .subtitle {
+    color: var(--color-red-400);
+}
+
+.colorScheme-red .panel-title {
+    background: var(--color-red-300);
+}
+
+.colorScheme-red .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-red-400);
+}
+
+.colorScheme-pink .project-details {
+    border-top-color: var(--color-pink-400);
+}
+
+.colorScheme-pink .subtitle,
+.colorScheme-pink a {
+    color: var(--color-pink-200);
+}
+
+.colorScheme-pink a:hover,
+.colorScheme-pink .portfolio-item-link:hover .subtitle {
+    color: var(--color-pink-300);
+}
+
+.colorScheme-pink .panel-title {
+    background: var(--color-pink-300);
+}
+
+.colorScheme-pink .portfolio-panel-next-panel-link:hover svg {
+    fill: var(--color-pink-400);
+}
+
 
 /* ==========================================================================
    CV panel
    ========================================================================== */
 #cv .subtitle {
-    color: var(--color-neutral-400);
+    color: var(--color-grey-600);
 }
 
 #cv .subtitle strong {
     background: transparent;
-    color: var(--color-primary-dark);
+    color: var(--color-pink-600);
 }
 
 .dates {
@@ -585,11 +924,6 @@ nav a:hover {
   margin-top: 20px;
 }
 
-.portfolio-headerss .panel-title {
-  color: var(--color-secondary-dark) !important;
-  background-color: var(--color-neutral-600) !important;
-}
-
 .portfolio-header-image {
   position: absolute;
   top: 0;
@@ -605,7 +939,7 @@ nav a:hover {
 }
 
 .portfolio-header .panel-contents {
-  background: var(--color-neutral-600);
+  background: var(--color-grey-900);
   padding: 0.8rem 1.6rem;
   position: relative;
   z-index: 2;
@@ -629,8 +963,8 @@ nav a:hover {
 
   .tag {
       display: inline-block;
-      background: var(--color-neutral-500);
-      color: var(--color-neutral-100);
+      background: var(--color-grey-700);
+      color: var(--color-white);
       padding: 0.25em 0.5em;
       text-transform: uppercase;
       letter-spacing: 0.125em;
@@ -740,11 +1074,11 @@ figcaption {
   width: 48px;
   stroke-width: 1px;
   stroke: var(--color-white);
-  fill: var(--color-neutral-600);
+  fill: var(--color-grey-900);
 }
 
 .portfolio-panel-next-panel-link:hover svg {
-  fill: var(--color-primary-dark);
+  fill: var(--color-pink-600);
 }
 
 .portfolio-panel-gallery {
@@ -778,27 +1112,15 @@ figcaption {
 
 .portfolio-panel-text {
   background: var(--color-black);
-  color: var(--color-neutral-100);
+  color: var(--color-white);
 }
 
 .portfolio-panel-text blockquote {
-  color: var(--color-neutral-200);
+  color: var(--color-grey-400);
 }
 
 .portfolio-panel-text .dates {
-  color: var(--color-neutral-200);
-}
-
-.portfolio-panel-text:nth-of-type(odd) .subtitle {
-  color: var(--color-primary);
-}
-
-.portfolio-panel-text a {
-  color: var(--color-secondary);
-}
-
-.portfolio-panel-text a:hover {
-  color: var(--color-primary);
+  color: var(--color-grey-400);
 }
 
 .portfolio-panel-gallery {

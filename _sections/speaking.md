@@ -2,6 +2,7 @@
 order: 5
 title: Speaking
 heading: Speaking engagements
+class: darkPanel
 ---
 <div class="dates">🇫🇮 Helsinki 2019</div>
 <h3 class="subtitle">WordCamp Nordic</h3>

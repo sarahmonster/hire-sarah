@@ -27,7 +27,11 @@ name: portfolio
 
     {% include navigation.md %}
 
-    <main class="container">
+    {% capture extraClasses %}
+      colorScheme-{{page.colorScheme}}
+    {% endcapture %}
+
+    <main class="container {{ extraClasses}}">
 
       {% if page.background %}
       	{% assign backgroundURL = page.background %}
@@ -35,7 +39,8 @@ name: portfolio
       	{% assign backgroundURL = page.image %}
       {% endif %}
 
-      <section class="panel portfolio-header" id="portfolio-panel-title">
+
+      <section class="panel darkPanel portfolio-header" id="portfolio-panel-title">
         <img class="portfolio-header-image" src="{{ backgroundURL }}" alt="">
 
         <div class="panel-contents">

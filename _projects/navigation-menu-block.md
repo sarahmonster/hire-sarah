@@ -3,9 +3,12 @@ id: navigation-menu-block
 title: Navigation menu block
 order: 3
 image: "/assets/img/navigation-menu-block/selected-menu-item.png"
+thumbnail: "/assets/img/navigation-menu-block/navigation-menu-block-thumbnail.png"
 tags: [wireframing, ideation, prototyping, usability testing, affinity mapping, leadership, community management, documentation]
 summary: A key component in the WordPress Gutenberg project, the navigation menu block allows users to create navigation menus for their websites in an intuitive and visual way.
 repo: https://gutenbergresearch.wordpress.com/
+public: true
+colorScheme: pink
 ---
 
 {% include portfolio-panel.md

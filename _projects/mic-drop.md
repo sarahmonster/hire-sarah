@@ -2,11 +2,15 @@
 id: mic-drop
 title: Mic Drop
 order: 0
-thumbnail: "/assets/img/mic-drop.png"
+thumbnail: "/assets/img/mic-drop/mic-drop-thumbnail.png"
 background: "/assets/img/mic-drop/mic-drop-title.png"
 tags: [user research, competitive analysis, wireframing, prototyping, visual design, development direction, front-end development, usability testing, product management]
 summary: A macOS menubar app to help people have better meetings. Featured by Apple and by MacRumors, beloved by users.
 site: https://getmicdrop.com
+public: true
+featured: true
+logo: "/assets/img/mic-drop/mic-drop-logo.svg"
+colorScheme: red
 ---
 {% include portfolio-panel.md
   metadata="Introduction"

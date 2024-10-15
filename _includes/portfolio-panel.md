@@ -1,7 +1,7 @@
 {% assign counter = counter | plus: 1 %}
 {% assign nextPanel = counter | plus: 1 %}
 
-<section class="portfolio-panel panel" id="portfolio-panel-{{ counter }}">
+<section class="portfolio-panel panel darkPanel" id="portfolio-panel-{{ counter }}">
 
   <div class="portfolio-panel-text">
    <span class="dates">{{ include.metadata }}</span>
