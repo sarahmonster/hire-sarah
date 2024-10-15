@@ -5,7 +5,7 @@ order: 5
 thumbnail: "/assets/img/pique/pique-thumbnail.jpg"
 background: "/assets/img/pique/background.png"
 tags: [competitive analysis, wireframing, prototyping, visual design, front-end development, usability testing, documentation]
-summary: A WordPress.com theme designed for small businesses, now in use on nearly one million WordPress sites.
+summary: A WordPress.com theme designed for small businesses, using creative techniques to allow for user customisation. Used by over a million WordPress sites small and large.
 repo: https://github.com/Automattic/themes/tree/master/pique
 demo: https://piquedemo.wordpress.com/
 public: true
